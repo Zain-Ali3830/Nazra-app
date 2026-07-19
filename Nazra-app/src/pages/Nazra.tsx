@@ -54,11 +54,11 @@ export function Nazra({ section, onBack }: NazraProps) {
         )}
 
         {selected.letters && selected.letters.length > 0 && (
-          <div className="mb-6" dir="ltr">
+          <div className="mb-6" dir="rtl">
             <h3 className="text-sm font-semibold text-ink-700 dark:text-parchment-200 mb-3 text-center">
               Letters to practice
             </h3>
-            <div className="grid grid-cols-4 sm:grid-cols-6 gap-3" dir="ltr">
+            <div className="grid grid-cols-4 sm:grid-cols-6 gap-3" dir="rtl">
               {selected.letters.map((letter, i) => (
                 <div
                   key={i}
