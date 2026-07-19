@@ -57,6 +57,8 @@ export interface NazraLesson {
   content_en?: string;
   content_ur?: string;
   letters?: string[];
+  rules?: string[];
+  examples?: string[];
 }
 
 export interface BilingualSection {

@@ -53,6 +53,48 @@ export function Nazra({ section, onBack }: NazraProps) {
           </div>
         )}
 
+        {selected.rules && selected.rules.length > 0 && (
+          <div className="glass-panel p-5 mb-6">
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-gold-600 dark:text-gold-300 mb-3 flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-gold-500" />
+              Rules of Pronunciation (قواعدِ تجوید)
+            </h3>
+            <ul className="space-y-3">
+              {selected.rules.map((rule, idx) => (
+                <li key={idx} className="flex gap-3 text-sm text-ink-700 dark:text-parchment-200 leading-relaxed">
+                  <span className="flex-shrink-0 w-5 h-5 rounded-full bg-mint-200 dark:bg-mint-800/40 text-mint-700 dark:text-gold-300 flex items-center justify-center text-xs font-bold mt-0.5">
+                    {idx + 1}
+                  </span>
+                  <span>{rule}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {selected.examples && selected.examples.length > 0 && (
+          <div className="mb-6">
+            <h3 className="text-sm font-semibold text-ink-700 dark:text-parchment-200 mb-3 text-center">
+              Practice Examples (مثالیں)
+            </h3>
+            <div className="flex flex-wrap justify-center gap-3" dir="rtl">
+              {selected.examples.map((example, i) => {
+                const isLong = example.length > 4;
+                return (
+                  <div
+                    key={i}
+                    className="neu-surface-sm flex items-center justify-center px-4 py-3 min-h-[64px] min-w-[64px] transition-all hover:scale-105 duration-200"
+                  >
+                    <span dir="rtl" lang="ar" className={`font-arabic text-ink-800 dark:text-parchment-100 ${isLong ? 'text-xl sm:text-2xl' : 'text-3xl'}`}>
+                      {example}
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         {selected.letters && selected.letters.length > 0 && (
           <div className="mb-6" dir="rtl">
             <h3 className="text-sm font-semibold text-ink-700 dark:text-parchment-200 mb-3 text-center">
@@ -141,7 +183,7 @@ export function Nazra({ section, onBack }: NazraProps) {
                     {lesson.title_en}
                   </p>
                 </div>
-                {lesson.letters && (
+                {(lesson.letters || lesson.examples) && (
                   <BookOpen className="w-4 h-4 text-mint-500 dark:text-gold-300 shrink-0" strokeWidth={1.5} />
                 )}
               </div>
