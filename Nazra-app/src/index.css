@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-ink-800 antialiased;
+    /* Light: soft cream-to-mint gradient — never a flat solid */
+    background:
+      radial-gradient(120% 80% at 0% 0%, #f7f4ea 0%, rgba(247, 244, 234, 0) 55%),
+      radial-gradient(120% 80% at 100% 0%, #f3f8f3 0%, rgba(243, 248, 243, 0) 55%),
+      linear-gradient(160deg, #f3f8f3 0%, #eef4ec 45%, #f7f4ea 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  /* Dark: deep muted charcoal-to-dark-green gradient (not pure black) */
+  html.dark body {
+    @apply text-parchment-100;
+    background:
+      radial-gradient(120% 80% at 0% 0%, #222825 0%, rgba(34, 40, 37, 0) 55%),
+      radial-gradient(120% 80% at 100% 0%, #1a201d 0%, rgba(26, 32, 29, 0) 55%),
+      linear-gradient(160deg, #1a201d 0%, #141a17 45%, #222825 100%);
+    background-attachment: fixed;
+  }
+
+  /* Arabic & Urdu blocks render RTL, English stays LTR */
+  [dir='rtl'] {
+    text-align: right;
+  }
+}
+
+@layer components {
+  /* ===== Neumorphism (light) ===== */
+  .neu-surface {
+    @apply bg-mint-100 shadow-neu rounded-2xl;
+  }
+  .neu-surface-sm {
+    @apply bg-mint-100 shadow-neu-sm rounded-xl;
+  }
+  .neu-inset {
+    @apply bg-mint-100 shadow-neu-inset rounded-2xl;
+  }
+  .neu-inset-sm {
+    @apply bg-mint-100 shadow-neu-inset-sm rounded-xl;
+  }
+  .neu-badge {
+    @apply bg-mint-100 shadow-neu-sm rounded-full flex items-center justify-center;
+  }
+  .neu-pill {
+    @apply bg-mint-100 shadow-neu-sm rounded-full transition-all duration-200;
+  }
+  .neu-pill:active,
+  .neu-pill.is-pressed {
+    @apply shadow-neu-inset-sm;
+  }
+
+  /* ===== Neumorphism (dark) ===== */
+  html.dark .neu-surface {
+    @apply bg-charcoal-800 shadow-neu-dark;
+  }
+  html.dark .neu-surface-sm {
+    @apply bg-charcoal-800 shadow-neu-dark-sm;
+  }
+  html.dark .neu-inset {
+    @apply bg-charcoal-800 shadow-neu-dark-inset;
+  }
+  html.dark .neu-inset-sm {
+    @apply bg-charcoal-800 shadow-neu-dark-inset-sm;
+  }
+  html.dark .neu-badge {
+    @apply bg-charcoal-800 shadow-neu-dark-sm;
+  }
+  html.dark .neu-pill {
+    @apply bg-charcoal-800 shadow-neu-dark-sm;
+  }
+  html.dark .neu-pill:active,
+  html.dark .neu-pill.is-pressed {
+    @apply shadow-neu-dark-inset-sm;
+  }
+
+  /* ===== Glassmorphism (light) ===== */
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px rgba(95, 128, 88, 0.12);
+    @apply rounded-2xl;
+  }
+
+  /* ===== Glassmorphism (dark) — semi-transparent dark slate with soft glow ===== */
+  html.dark .glass-panel {
+    background: rgba(40, 48, 42, 0.45);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(180, 200, 170, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Scale blur/shadow down on small screens for perf + readability */
+  @media (max-width: 640px) {
+    .glass-panel {
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+  }
+}
