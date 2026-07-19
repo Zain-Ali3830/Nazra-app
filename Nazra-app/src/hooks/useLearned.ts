@@ -24,26 +24,53 @@ function writeSet(s: LearnedSet) {
   }
 }
 
+// Global state variables for synchronization across hooks and tabs
+let globalLearned: LearnedSet = readSet();
+const listeners = new Set<() => void>();
+
+function updateGlobalLearned(next: LearnedSet) {
+  globalLearned = next;
+  writeSet(next);
+  listeners.forEach((l) => l());
+}
+
 /**
  * Tracks "mark as learned" item ids in localStorage.
- * Purely client-side, no backend sync, per app spec.
+ * Synchronized globally across all hook instances and browser tabs.
  */
 export function useLearned() {
-  const [learned, setLearned] = useState<LearnedSet>(() => readSet());
+  const [learned, setLearned] = useState<LearnedSet>(globalLearned);
 
   useEffect(() => {
-    writeSet(learned);
-  }, [learned]);
+    const handleUpdate = () => {
+      setLearned(globalLearned);
+    };
+    listeners.add(handleUpdate);
+    return () => {
+      listeners.delete(handleUpdate);
+    };
+  }, []);
+
+  // Listen for storage events to synchronize changes made in other tabs
+  useEffect(() => {
+    const handleStorage = (e: StorageEvent) => {
+      if (e.key === STORAGE_KEY) {
+        updateGlobalLearned(readSet());
+      }
+    };
+    window.addEventListener('storage', handleStorage);
+    return () => {
+      window.removeEventListener('storage', handleStorage);
+    };
+  }, []);
 
   const isLearned = useCallback((id: string) => learned.has(id), [learned]);
 
   const toggleLearned = useCallback((id: string) => {
-    setLearned((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
-    });
+    const next = new Set(globalLearned);
+    if (next.has(id)) next.delete(id);
+    else next.add(id);
+    updateGlobalLearned(next);
   }, []);
 
   const learnedCount = useCallback(
