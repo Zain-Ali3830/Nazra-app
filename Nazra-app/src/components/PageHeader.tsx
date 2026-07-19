@@ -21,7 +21,7 @@ export function PageHeader({ title_en, title_ur, onBack, progress, children }: P
           <ArrowLeft className="w-5 h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
         </button>
         <div className="flex-1 min-w-0">
-          <p dir="rtl" lang="ur" className="font-urdu text-xl leading-tight text-ink-800 dark:text-parchment-100">
+          <p dir="rtl" lang="ur" className="font-urdu text-xl leading-tight text-ink-800 dark:text-parchment-100 mb-1">
             {title_ur}
           </p>
           <h1 className="text-lg font-semibold text-ink-800 dark:text-parchment-100">{title_en}</h1>

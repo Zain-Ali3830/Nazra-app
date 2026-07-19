@@ -120,8 +120,8 @@
   "nazra": {
     "title_en": "Nazra Basics (Foundations of Quran Reading)",
     "title_ur": "ناظرہ کی بنیادی معلومات",
-    "intro_en": "These lessons build up, step by step, the basic skills needed to read the Quran correctly. Note: Unlike modern UI configurations, standard classical Arabic lesson text rows across all Takhtis in this application are layout-configured to render sequentially from Left to Right (LTR).",
-    "intro_ur": "یہ اسباق قدم بہ قدم وہ بنیادی مہارتیں سکھاتے ہیں جو قرآن کو درست پڑھنے کے لیے ضروری ہیں۔ نوٹ: روایتی طریقہ کار کے برعکس، اِس ایپلی کیشن میں تمام تختیوں کی قطاریں بائیں سے دائیں (LTR) ترتیب دی گئی ہیں۔",
+    "intro_en": "These lessons build up, step by step, the basic skills needed to read the Quran correctly.",
+    "intro_ur": "یہ اسباق قدم بہ قدم وہ بنیادی مہارتیں سکھاتے ہیں جو قرآن کو درست پڑھنے کے لیے ضروری ہیں۔",
     "lessons": [
       { "id": "lesson-1", "title_en": "Lesson 1: The Individual Letters (Huroof-e-Tahaji)", "title_ur": "سبق 1: حروفِ تہجی (انفرادی حروف)", "letters": ["ا","ب","ت","ث","ج","ح","خ","د","ذ","ر","ز","س","ش","ص","ض","ط","ظ","ع","غ","ف","ق","ك","ل","م","ن","و","ه","ء","ی"], "content_en": "The Arabic alphabet has 29 letters. Seven are always heavy: kh, saad, daad, taa, zaa, ghain, qaaf.", "content_ur": "عربی حروفِ تہجی 29 ہیں۔ ان میں سے سات حروف ہمیشہ بھاری اور موٹی آواز کے ساتھ پڑھے جاتے ہیں۔" },
       { "id": "lesson-2", "title_en": "Lesson 2: Joined (Compound) Letter Forms", "title_ur": "سبق 2: جڑے ہوئے حروف کی شکلیں", "content_en": "When letters join in a word, their shapes change slightly—often only the 'head' is written.", "content_ur": "جب حروف کسی لفظ میں جڑتے ہیں تو اُن کی شکل بدل جاتی ہے، عام طور پر صرف سرا لکھا جاتا ہے۔" },

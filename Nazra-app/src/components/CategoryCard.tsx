@@ -28,7 +28,7 @@ export function CategoryCard({
           <p
             dir="rtl"
             lang="ur"
-            className="font-urdu text-lg leading-tight text-ink-800 dark:text-parchment-100 mb-0.5"
+            className="font-urdu text-lg leading-[2] text-ink-800 dark:text-parchment-100 mb-1"
           >
             {title_ur}
           </p>

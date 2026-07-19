@@ -415,8 +415,8 @@
   "nazra": {
     "title_en": "Nazra Basics (Foundations of Quran Reading)",
     "title_ur": "ناظرہ کی بنیادی معلومات",
-    "intro_en": "These lessons build up, step by step, the basic skills needed to read the Quran correctly. Note: Unlike modern UI configurations, standard classical Arabic lesson text rows across all Takhtis in this application are layout-configured to render sequentially from Left to Right (LTR).",
-    "intro_ur": "یہ اسباق قدم بہ قدم وہ بنیادی مہارتیں سکھاتے ہیں جو قرآن کو درست پڑھنے کے لیے ضروری ہیں۔ نوٹ: روایتی طریقہ کار کے برعکس، اِس ایپلی کیشن میں تمام تختیوں کی قطاریں بائیں سے دائیں (LTR) ترتیب دی گئی ہیں۔",
+    "intro_en": "These lessons build up, step by step, the basic skills needed to read the Quran correctly.",
+    "intro_ur": "یہ اسباق قدم بہ قدم وہ بنیادی مہارتیں سکھاتے ہیں جو قرآن کو درست پڑھنے کے لیے ضروری ہیں۔",
     "lessons": [
       {
         "id": "lesson-1",

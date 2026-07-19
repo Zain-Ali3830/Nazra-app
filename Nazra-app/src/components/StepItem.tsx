@@ -34,14 +34,14 @@ export function StepItem({ number, step, learned, onToggle, surahs }: StepItemPr
           <p
             dir="rtl"
             lang="ur"
-            className="font-urdu text-lg leading-tight text-ink-800"
+            className="font-urdu text-lg leading-[1.95] text-ink-800 mb-1"
           >
             {step.title_ur}
           </p>
           <p className="font-medium text-ink-700 dark:text-parchment-200 text-sm mb-3">{step.title_en}</p>
 
           {(step.instruction_en || step.instruction_ur) && (
-            <div className="mb-3 space-y-1">
+            <div className="mb-3 space-y-3">
               {step.instruction_ur && (
                 <p dir="rtl" lang="ur" className="font-urdu text-base leading-relaxed text-ink-700 dark:text-parchment-200">
                   {step.instruction_ur}

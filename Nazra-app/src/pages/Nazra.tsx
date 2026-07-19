@@ -31,7 +31,7 @@ export function Nazra({ section, onBack }: NazraProps) {
             <ArrowLeft className="w-5 h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
           </button>
           <div className="min-w-0">
-            <p dir="rtl" lang="ur" className="font-urdu text-lg leading-tight text-ink-800 dark:text-parchment-100">
+            <p dir="rtl" lang="ur" className="font-urdu text-lg leading-[1.9] text-ink-800 dark:text-parchment-100 mb-1">
               {selected.title_ur}
             </p>
             <h1 className="text-sm font-semibold text-ink-700 dark:text-parchment-200">{selected.title_en}</h1>
@@ -41,12 +41,12 @@ export function Nazra({ section, onBack }: NazraProps) {
         {(selected.content_en || selected.content_ur) && (
           <div className="glass-panel p-5 mb-6">
             {selected.content_ur && (
-              <p dir="rtl" lang="ur" className="font-urdu text-lg leading-relaxed text-ink-800 dark:text-parchment-100 mb-3">
+              <p dir="rtl" lang="ur" className="font-urdu text-lg leading-[2.2] text-ink-800 dark:text-parchment-100 mb-4">
                 {selected.content_ur}
               </p>
             )}
             {selected.content_en && (
-              <p dir="ltr" className="text-sm leading-relaxed text-ink-700 dark:text-parchment-200">
+              <p dir="ltr" className="text-sm leading-relaxed text-ink-700 dark:text-parchment-200 mt-3">
                 {selected.content_en}
               </p>
             )}
@@ -134,7 +134,7 @@ export function Nazra({ section, onBack }: NazraProps) {
                   {done ? <Check className="w-4 h-4" strokeWidth={2.5} /> : i + 1}
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p dir="rtl" lang="ur" className="font-urdu text-base leading-tight text-ink-800 dark:text-parchment-100">
+                  <p dir="rtl" lang="ur" className="font-urdu text-base leading-[2] text-ink-800 dark:text-parchment-100 mb-1">
                     {lesson.title_ur}
                   </p>
                   <p className="font-medium text-xs text-ink-600 dark:text-parchment-300 mt-0.5 line-clamp-2">
