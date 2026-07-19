@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { BackArrowIcon, LearnedCheckIcon, QuranIcon } from '../components/IslamicIcons';
 import type { BilingualSection, NazraLesson } from '../types';
 import { useLearned } from '../hooks/useLearned';
+import { useCelebrate } from '../context/CelebrationContext';
 import { PageHeader } from '../components/PageHeader';
 
 interface NazraProps {
@@ -12,6 +13,7 @@ interface NazraProps {
 export function Nazra({ section, onBack }: NazraProps) {
   const lessons = section.lessons ?? [];
   const { isLearned, toggleLearned, learnedCount } = useLearned();
+  const celebrate = useCelebrate();
   const [selected, setSelected] = useState<NazraLesson | null>(null);
 
   const ids = lessons.map((l) => `nazra:${l.id}`);
@@ -116,7 +118,7 @@ export function Nazra({ section, onBack }: NazraProps) {
         )}
 
         <button
-          onClick={() => toggleLearned(selId)}
+          onClick={() => { celebrate(selId, !learnedSel); toggleLearned(selId); }}
           aria-pressed={learnedSel}
           className={`neu-pill flex items-center gap-2 px-4 py-2 text-sm font-medium transition-all ${
             learnedSel ? 'is-pressed text-mint-700 dark:text-gold-300' : 'text-mint-600 dark:text-gold-300'

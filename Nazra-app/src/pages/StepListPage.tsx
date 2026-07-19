@@ -50,6 +50,7 @@ export function StepListPage({ section, onBack, storagePrefix }: StepListPagePro
           return (
             <StepItem
               key={id}
+              id={id}
               number={i + 1}
               step={step}
               learned={isLearned(id)}

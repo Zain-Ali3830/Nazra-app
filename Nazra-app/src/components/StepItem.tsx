@@ -1,8 +1,10 @@
 import { LearnedCheckIcon } from './IslamicIcons';
+import { useCelebrate } from '../context/CelebrationContext';
 import type { BilingualStep, Surah } from '../types';
 import { BilingualText } from './BilingualText';
 
 interface StepItemProps {
+  id: string;
   number: number;
   step: BilingualStep;
   learned: boolean;
@@ -10,7 +12,13 @@ interface StepItemProps {
   surahs?: Surah[];
 }
 
-export function StepItem({ number, step, learned, onToggle, surahs }: StepItemProps) {
+export function StepItem({ id, number, step, learned, onToggle, surahs }: StepItemProps) {
+  const celebrate = useCelebrate();
+
+  function handleToggle() {
+    celebrate(id, !learned); // celebrate only when going from not-learned → learned
+    onToggle();
+  }
   const hasAtTahiyyat = Boolean(
     step.arabic && step.transliteration && step.translation_en && step.translation_ur,
   );
@@ -148,7 +156,7 @@ export function StepItem({ number, step, learned, onToggle, surahs }: StepItemPr
       </div>
 
       <button
-        onClick={onToggle}
+        onClick={handleToggle}
         aria-pressed={learned}
         className={`neu-pill mt-4 ml-auto flex items-center gap-2 px-4 py-2 text-sm font-medium transition-all ${
           learned ? 'is-pressed text-mint-700 dark:text-gold-300' : 'text-mint-600 dark:text-gold-300'

@@ -125,3 +125,50 @@
     }
   }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Islamic Celebration Animations
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Toast slides up from below with an Islamic-style spring */
+@keyframes cel-slide-up {
+  0%   { opacity: 0; transform: translate(-50%, 40px) scale(0.88); }
+  60%  { opacity: 1; transform: translate(-50%, -4px) scale(1.02); }
+  100% { opacity: 1; transform: translate(-50%, 0)   scale(1); }
+}
+
+/* For milestone (centred) toast */
+@keyframes cel-slide-up-center {
+  0%   { opacity: 0; transform: translate(-50%, calc(-50% + 40px)) scale(0.88); }
+  60%  { opacity: 1; transform: translate(-50%, calc(-50% - 4px)) scale(1.02); }
+  100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+/* Emoji bounces in with a spring */
+@keyframes cel-bounce {
+  0%   { opacity: 0; transform: scale(0.3) rotate(-15deg); }
+  50%  { transform: scale(1.25) rotate(8deg); }
+  75%  { transform: scale(0.92) rotate(-4deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+/* Text blocks fade + rise */
+@keyframes cel-fade-up {
+  0%   { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Simple fade in (backdrop) */
+@keyframes cel-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Particles float upward and fade out */
+@keyframes cel-particle-float {
+  0%   { opacity: 0;   transform: translateY(0)    rotate(0deg)   scale(0.5); }
+  15%  { opacity: 0.9; }
+  80%  { opacity: 0.6; transform: translateY(-90px) rotate(120deg) scale(1.1); }
+  100% { opacity: 0;   transform: translateY(-130px) rotate(180deg) scale(0.8); }
+}
+

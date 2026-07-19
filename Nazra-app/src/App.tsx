@@ -9,6 +9,7 @@ import { StepListPage } from './pages/StepListPage';
 import { TextPage } from './pages/TextPage';
 import { SunnahDuas } from './pages/SunnahDuas';
 import { Nazra } from './pages/Nazra';
+import { CelebrationProvider } from './context/CelebrationContext';
 
 type View = CategoryId | 'home';
 
@@ -65,9 +66,11 @@ export default function App() {
   }, [view, navigate, getProgress]);
 
   return (
-    <div className="min-h-screen flex">
-      <Navigation active={view} onNavigate={navigate} theme={theme} onToggleTheme={toggleTheme} />
-      <main className="flex-1 min-w-0">{content}</main>
-    </div>
+    <CelebrationProvider>
+      <div className="min-h-screen flex">
+        <Navigation active={view} onNavigate={navigate} theme={theme} onToggleTheme={toggleTheme} />
+        <main className="flex-1 min-w-0">{content}</main>
+      </div>
+    </CelebrationProvider>
   );
 }
