@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowLeft } from 'lucide-react';
+import { BackArrowIcon } from '../components/IslamicIcons';
 import type { Dua } from '../types';
 import { PageHeader } from '../components/PageHeader';
 import { DuaCard } from '../components/DuaCard';
@@ -22,7 +22,7 @@ export function SunnahDuas({ duas, onBack }: SunnahDuasProps) {
             aria-label="Back to list"
             className="neu-badge w-10 h-10 hover:shadow-neu-inset-sm transition-shadow"
           >
-            <ArrowLeft className="w-5 h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
+            <BackArrowIcon className="w-5 h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
           </button>
           <div className="min-w-0">
             <p dir="rtl" lang="ur" className="font-urdu text-lg leading-tight text-ink-800 dark:text-parchment-100">

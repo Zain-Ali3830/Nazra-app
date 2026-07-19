@@ -1,4 +1,4 @@
-import { Check } from 'lucide-react';
+import { LearnedCheckIcon } from './IslamicIcons';
 import type { BilingualStep, Surah } from '../types';
 import { BilingualText } from './BilingualText';
 
@@ -27,7 +27,7 @@ export function StepItem({ number, step, learned, onToggle, surahs }: StepItemPr
               : 'neu-badge w-9 h-9 text-mint-700 dark:text-gold-300'
           }`}
         >
-          {learned ? <Check className="w-4 h-4" strokeWidth={2.5} /> : number}
+          {learned ? <LearnedCheckIcon className="w-4 h-4" strokeWidth={2.5} /> : number}
         </div>
 
         <div className="flex-1 min-w-0">
@@ -154,7 +154,7 @@ export function StepItem({ number, step, learned, onToggle, surahs }: StepItemPr
           learned ? 'is-pressed text-mint-700 dark:text-gold-300' : 'text-mint-600 dark:text-gold-300'
         }`}
       >
-        <Check className={`w-4 h-4 ${learned ? 'opacity-100' : 'opacity-40'}`} strokeWidth={2} />
+        <LearnedCheckIcon className={`w-4 h-4 ${learned ? 'opacity-100' : 'opacity-40'}`} strokeWidth={2} />
         {learned ? 'Learned' : 'Mark as learned'}
       </button>
     </div>

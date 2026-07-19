@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronDown, ChevronRight } from 'lucide-react';
+import { ChevronRightIcon } from './IslamicIcons';
 import type { BilingualItem } from '../types';
 
 interface ChecklistSectionProps {
@@ -28,7 +28,7 @@ export function ChecklistSection({ title_en, title_ur, items, defaultOpen = fals
           <p className="font-medium text-sm text-ink-700 dark:text-parchment-200">{title_en}</p>
           <p className="text-xs text-mint-600 dark:text-gold-300 mt-0.5">{items.length} items</p>
         </div>
-        <ChevronRight className={`w-5 h-5 text-mint-600 dark:text-gold-300 shrink-0 transition-transform ${open ? 'rotate-90' : ''}`} />
+        <ChevronRightIcon className={`w-5 h-5 text-mint-600 dark:text-gold-300 shrink-0 transition-transform ${open ? 'rotate-90' : ''}`} />
       </button>
 
       {open && (

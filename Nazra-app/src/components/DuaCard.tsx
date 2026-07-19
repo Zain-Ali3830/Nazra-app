@@ -1,4 +1,4 @@
-import { ChevronRight } from 'lucide-react';
+import { ChevronRightIcon } from './IslamicIcons';
 import type { Dua } from '../types';
 
 interface DuaCardProps {
@@ -19,7 +19,7 @@ export function DuaCard({ dua, onClick }: DuaCardProps) {
           </p>
           <p className="font-medium text-sm text-ink-600 dark:text-parchment-200 mt-0.5">{dua.occasion_en}</p>
         </div>
-        <ChevronRight className="w-5 h-5 text-mint-500 dark:text-gold-300 shrink-0 group-active:translate-x-0.5 transition-transform" />
+        <ChevronRightIcon className="w-5 h-5 text-mint-500 dark:text-gold-300 shrink-0 group-active:translate-x-0.5 transition-transform" />
       </div>
       <p dir="rtl" lang="ar" className="font-arabic text-xl text-center text-ink-700 dark:text-parchment-100 mt-3 leading-relaxed line-clamp-2">
         {dua.arabic}

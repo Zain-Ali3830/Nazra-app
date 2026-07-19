@@ -1,21 +1,32 @@
-import { Home, Droplets, Sparkles, BookOpen, Moon, HeartHandshake, ScrollText, Sun } from 'lucide-react';
-import type { LucideIcon } from 'lucide-react';
+import type { SVGProps } from 'react';
+import {
+  MosqueIcon,
+  WuduDropIcon,
+  CrescentStarIcon,
+  QuranIcon,
+  CrescentMoonIcon,
+  DuaHandsIcon,
+  ScrollIcon,
+  SunIcon,
+} from './IslamicIcons';
+
+type IconComponent = (props: SVGProps<SVGSVGElement> & { strokeWidth?: number }) => JSX.Element;
 import type { CategoryId } from '../types';
 
 export interface NavItem {
   id: CategoryId;
   label_en: string;
   label_ur: string;
-  icon: LucideIcon;
+  icon: IconComponent;
 }
 
 export const NAV_ITEMS: NavItem[] = [
-  { id: 'wudu', label_en: 'Wudu', label_ur: 'وضو', icon: Droplets },
-  { id: 'salah', label_en: 'Salah', label_ur: 'نماز', icon: Sparkles },
-  { id: 'ayatulKursi', label_en: 'Ayat-ul-Kursi', label_ur: 'آیت الکرسی', icon: BookOpen },
-  { id: 'duaQunoot', label_en: 'Dua-e-Qunoot', label_ur: 'دعائے قنوت', icon: Moon },
-  { id: 'sunnahDuas', label_en: 'Sunnah Duas', label_ur: 'سنت دعائیں', icon: HeartHandshake },
-  { id: 'nazra', label_en: 'Nazra', label_ur: 'ناظرہ', icon: ScrollText },
+  { id: 'wudu', label_en: 'Wudu', label_ur: 'وضو', icon: WuduDropIcon },
+  { id: 'salah', label_en: 'Salah', label_ur: 'نماز', icon: CrescentStarIcon },
+  { id: 'ayatulKursi', label_en: 'Ayat-ul-Kursi', label_ur: 'آیت الکرسی', icon: QuranIcon },
+  { id: 'duaQunoot', label_en: 'Dua-e-Qunoot', label_ur: 'دعائے قنوت', icon: CrescentMoonIcon },
+  { id: 'sunnahDuas', label_en: 'Sunnah Duas', label_ur: 'سنت دعائیں', icon: DuaHandsIcon },
+  { id: 'nazra', label_en: 'Nazra', label_ur: 'ناظرہ', icon: ScrollIcon },
 ];
 
 interface NavigationProps {
@@ -26,7 +37,7 @@ interface NavigationProps {
 }
 
 export function Navigation({ active, onNavigate, theme, onToggleTheme }: NavigationProps) {
-  const ThemeIcon = theme === 'dark' ? Sun : Moon;
+  const ThemeIcon = theme === 'dark' ? SunIcon : CrescentMoonIcon;
 
   return (
     <>
@@ -52,7 +63,7 @@ export function Navigation({ active, onNavigate, theme, onToggleTheme }: Navigat
               active === 'home' ? 'shadow-neu-inset-sm dark:shadow-neu-dark-inset-sm text-mint-700 dark:text-gold-300' : 'text-mint-600 dark:text-gold-300'
             }`}
           >
-            <Home className="w-5 h-5" strokeWidth={1.75} />
+            <MosqueIcon className="w-5 h-5" strokeWidth={1.75} />
           </button>
           {NAV_ITEMS.map((item) => {
             const Icon = item.icon;
@@ -81,7 +92,7 @@ export function Navigation({ active, onNavigate, theme, onToggleTheme }: Navigat
             active === 'home' ? 'shadow-neu-inset-sm dark:shadow-neu-dark-inset-sm text-mint-700 dark:text-gold-300' : 'text-ink-700 dark:text-parchment-200'
           }`}
         >
-          <Home className="w-5 h-5 text-mint-600 dark:text-gold-300 shrink-0" strokeWidth={1.75} />
+          <MosqueIcon className="w-5 h-5 text-mint-600 dark:text-gold-300 shrink-0" strokeWidth={1.75} />
           <div>
             <p className="font-medium text-sm">Home</p>
             <p dir="rtl" lang="ur" className="font-urdu text-sm text-ink-600 dark:text-parchment-300 leading-tight">

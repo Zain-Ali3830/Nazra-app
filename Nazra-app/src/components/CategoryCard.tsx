@@ -1,9 +1,11 @@
-import type { LucideIcon } from 'lucide-react';
+import type { SVGProps } from 'react';
+
+type IconComponent = (props: SVGProps<SVGSVGElement> & { strokeWidth?: number }) => JSX.Element;
 
 interface CategoryCardProps {
   title_en: string;
   title_ur: string;
-  icon: LucideIcon;
+  icon: IconComponent;
   progress?: { learned: number; total: number };
   onClick: () => void;
 }

@@ -1,4 +1,4 @@
-import { ArrowLeft } from 'lucide-react';
+import { BackArrowIcon } from './IslamicIcons';
 import type { ReactNode } from 'react';
 
 interface PageHeaderProps {
@@ -18,7 +18,7 @@ export function PageHeader({ title_en, title_ur, onBack, progress, children }: P
           aria-label="Back to home"
           className="neu-badge w-10 h-10 hover:shadow-neu-inset-sm transition-shadow"
         >
-          <ArrowLeft className="w-5 h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
+          <BackArrowIcon className="w-5 h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
         </button>
         <div className="flex-1 min-w-0">
           <p dir="rtl" lang="ur" className="font-urdu text-xl leading-tight text-ink-800 dark:text-parchment-100 mb-1">

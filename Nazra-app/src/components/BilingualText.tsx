@@ -1,4 +1,4 @@
-import { BookOpen } from 'lucide-react';
+import { QuranIcon } from './IslamicIcons';
 
 interface BilingualTextProps {
   arabic?: string;
@@ -63,7 +63,7 @@ export function BilingualText({
 
       {!translation_en && !translation_ur && !transliteration && (
         <div className="flex items-center justify-center gap-2 text-mint-500 text-sm pt-2">
-          <BookOpen className="w-4 h-4" />
+          <QuranIcon className="w-4 h-4" />
           <span>Content pending</span>
         </div>
       )}

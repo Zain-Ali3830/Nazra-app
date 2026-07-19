@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowLeft, Check, BookOpen } from 'lucide-react';
+import { BackArrowIcon, LearnedCheckIcon, QuranIcon } from '../components/IslamicIcons';
 import type { BilingualSection, NazraLesson } from '../types';
 import { useLearned } from '../hooks/useLearned';
 import { PageHeader } from '../components/PageHeader';
@@ -28,7 +28,7 @@ export function Nazra({ section, onBack }: NazraProps) {
             aria-label="Back to lessons"
             className="neu-badge w-10 h-10 hover:shadow-neu-inset-sm dark:hover:shadow-neu-dark-inset-sm transition-shadow"
           >
-            <ArrowLeft className="w-5 h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
+            <BackArrowIcon className="w-5 h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
           </button>
           <div className="min-w-0">
             <p dir="rtl" lang="ur" className="font-urdu text-lg leading-[1.9] text-ink-800 dark:text-parchment-100 mb-1">
@@ -122,7 +122,7 @@ export function Nazra({ section, onBack }: NazraProps) {
             learnedSel ? 'is-pressed text-mint-700 dark:text-gold-300' : 'text-mint-600 dark:text-gold-300'
           }`}
         >
-          <Check className={`w-4 h-4 ${learnedSel ? 'opacity-100' : 'opacity-40'}`} strokeWidth={2} />
+          <LearnedCheckIcon className={`w-4 h-4 ${learnedSel ? 'opacity-100' : 'opacity-40'}`} strokeWidth={2} />
           {learnedSel ? 'Learned' : 'Mark as learned'}
         </button>
       </div>
@@ -173,7 +173,7 @@ export function Nazra({ section, onBack }: NazraProps) {
                       : 'neu-badge w-9 h-9 text-mint-700 dark:text-gold-300'
                   }`}
                 >
-                  {done ? <Check className="w-4 h-4" strokeWidth={2.5} /> : i + 1}
+                  {done ? <LearnedCheckIcon className="w-4 h-4" strokeWidth={2.5} /> : i + 1}
                 </div>
                 <div className="min-w-0 flex-1">
                   <p dir="rtl" lang="ur" className="font-urdu text-base leading-[2] text-ink-800 dark:text-parchment-100 mb-1">
@@ -184,7 +184,7 @@ export function Nazra({ section, onBack }: NazraProps) {
                   </p>
                 </div>
                 {(lesson.letters || lesson.examples) && (
-                  <BookOpen className="w-4 h-4 text-mint-500 dark:text-gold-300 shrink-0" strokeWidth={1.5} />
+                  <QuranIcon className="w-4 h-4 text-mint-500 dark:text-gold-300 shrink-0" strokeWidth={1.5} />
                 )}
               </div>
             </button>

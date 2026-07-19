@@ -1,5 +1,14 @@
-import { Droplets, Sparkles, BookOpen, Moon, HeartHandshake, ScrollText } from 'lucide-react';
-import type { LucideIcon } from 'lucide-react';
+import type { SVGProps } from 'react';
+import {
+  WuduDropIcon,
+  CrescentStarIcon,
+  QuranIcon,
+  CrescentMoonIcon,
+  DuaHandsIcon,
+  ScrollIcon,
+} from '../components/IslamicIcons';
+
+type IconComponent = (props: SVGProps<SVGSVGElement> & { strokeWidth?: number }) => JSX.Element;
 import type { CategoryId } from '../types';
 import { CategoryCard } from '../components/CategoryCard';
 
@@ -12,17 +21,17 @@ interface CategoryMeta {
   id: CategoryId;
   title_en: string;
   title_ur: string;
-  icon: LucideIcon;
+  icon: IconComponent;
   hasProgress: boolean;
 }
 
 const CATEGORIES: CategoryMeta[] = [
-  { id: 'wudu', title_en: 'Wudu (Ablution)', title_ur: 'وضو', icon: Droplets, hasProgress: true },
-  { id: 'salah', title_en: 'Salah (Prayer Method)', title_ur: 'نماز', icon: Sparkles, hasProgress: true },
-  { id: 'ayatulKursi', title_en: 'Ayat-ul-Kursi', title_ur: 'آیت الکرسی', icon: BookOpen, hasProgress: false },
-  { id: 'duaQunoot', title_en: 'Dua-e-Qunoot', title_ur: 'دعائے قنوت', icon: Moon, hasProgress: false },
-  { id: 'sunnahDuas', title_en: 'Sunnah Duas', title_ur: 'سنت دعائیں', icon: HeartHandshake, hasProgress: false },
-  { id: 'nazra', title_en: 'Nazra Basics', title_ur: 'ناظرہ', icon: ScrollText, hasProgress: false },
+  { id: 'wudu', title_en: 'Wudu (Ablution)', title_ur: 'وضو', icon: WuduDropIcon, hasProgress: true },
+  { id: 'salah', title_en: 'Salah (Prayer Method)', title_ur: 'نماز', icon: CrescentStarIcon, hasProgress: true },
+  { id: 'ayatulKursi', title_en: 'Ayat-ul-Kursi', title_ur: 'آیت الکرسی', icon: QuranIcon, hasProgress: false },
+  { id: 'duaQunoot', title_en: 'Dua-e-Qunoot', title_ur: 'دعائے قنوت', icon: CrescentMoonIcon, hasProgress: false },
+  { id: 'sunnahDuas', title_en: 'Sunnah Duas', title_ur: 'سنت دعائیں', icon: DuaHandsIcon, hasProgress: false },
+  { id: 'nazra', title_en: 'Nazra Basics', title_ur: 'ناظرہ', icon: ScrollIcon, hasProgress: false },
 ];
 
 export function Home({ onNavigate, getProgress }: HomeProps) {
@@ -30,7 +39,7 @@ export function Home({ onNavigate, getProgress }: HomeProps) {
     <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-8 pb-28 md:pb-12">
       <header className="text-center mb-8 sm:mb-10">
         <div className="neu-badge w-16 h-16 mx-auto mb-4">
-          <BookOpen className="w-8 h-8 text-mint-600 dark:text-gold-300" strokeWidth={1.5} />
+          <QuranIcon className="w-8 h-8 text-mint-600 dark:text-gold-300" strokeWidth={1.5} />
         </div>
         <h1 className="text-2xl sm:text-3xl font-semibold text-ink-800 dark:text-parchment-100 mb-1">Islamic Basics</h1>
         <p dir="rtl" lang="ur" className="font-urdu text-xl text-mint-600 dark:text-gold-300 mb-2">
