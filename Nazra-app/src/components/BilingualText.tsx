@@ -29,7 +29,8 @@ export function BilingualText({
         <p
           dir="rtl"
           lang="ar"
-          className="font-arabic text-2xl sm:text-3xl leading-[3] py-8 text-center text-ink-900 dark:text-parchment-100 mb-6"
+          style={{ lineHeight: '3.2em', wordSpacing: '0.1em' }}
+          className="font-arabic text-2xl sm:text-3xl sm:text-[32px] py-6 text-center text-ink-900 dark:text-parchment-100 mb-8"
         >
           {arabic}
         </p>
@@ -38,16 +39,19 @@ export function BilingualText({
       {transliteration && (
         <p
           dir="ltr"
-          className="text-center text-gold-600 dark:text-gold-300 italic text-sm sm:text-base mb-6"
+          className="text-center text-gold-600 dark:text-gold-300 italic text-sm sm:text-base mb-8"
         >
           {transliteration}
         </p>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {translation_ur && (
-          <div dir="rtl" lang="ur" className="md:border-r md:border-white/40 dark:md:border-white/15 md:pr-4">
-            <p className="font-urdu text-lg sm:text-xl leading-[2.5] text-ink-800 dark:text-parchment-100">
+          <div dir="rtl" lang="ur" className="md:border-r md:border-white/40 dark:md:border-white/15 md:pr-6">
+            <p
+              className="font-urdu text-lg sm:text-xl text-ink-800 dark:text-parchment-100"
+              style={{ lineHeight: '2.8em', wordSpacing: '0.08em' }}
+            >
               {translation_ur}
             </p>
           </div>

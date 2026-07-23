@@ -6,7 +6,21 @@ export type CategoryId =
   | 'ayatulKursi'
   | 'duaQunoot'
   | 'sunnahDuas'
-  | 'nazra';
+  | 'nazra'
+  | 'sixKalmas';
+
+export interface Kalma {
+  id: string;
+  number: number;
+  name_en: string;
+  name_ur: string;
+  arabic: string;
+  transliteration: string;
+  translation_en: string;
+  translation_ur: string;
+  virtue_en?: string;
+  virtue_ur?: string;
+}
 
 export interface Category {
   id: CategoryId;

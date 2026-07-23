@@ -328,3 +328,30 @@ export function IslamicStarIcon({ className, strokeWidth = 1.5, ...props }: Icon
     </svg>
   );
 }
+
+/** Kalma / Six Kalmas icon — a tablet/stone with Arabic lettering lines */
+export function KalmaIcon({ className, strokeWidth = 1.75, ...props }: IconProps) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={strokeWidth}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      {/* Tablet / stone shape */}
+      <path d="M5 3 Q5 2 6 2 L18 2 Q19 2 19 3 L19 18 Q19 22 12 22 Q5 22 5 18 Z" />
+      {/* Star ornament at top */}
+      <path d="M12 5 L12.7 7.1 L15 7.1 L13.2 8.4 L13.9 10.5 L12 9.2 L10.1 10.5 L10.8 8.4 L9 7.1 L11.3 7.1 Z" fill="currentColor" stroke="none" />
+      {/* Arabic-style text lines */}
+      <line x1="8" y1="13" x2="16" y2="13" strokeWidth={strokeWidth * 0.8} />
+      <line x1="8.5" y1="16" x2="15.5" y2="16" strokeWidth={strokeWidth * 0.8} />
+      <line x1="9" y1="19" x2="15" y2="19" strokeWidth={strokeWidth * 0.6} />
+    </svg>
+  );
+}
+
