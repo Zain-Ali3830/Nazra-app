@@ -43,19 +43,18 @@ export function Navigation({ active, onNavigate, theme, onToggleTheme }: Navigat
 
   return (
     <>
-      {/* Mobile: top bar with theme toggle + bottom tab bar */}
-      <div className="md:hidden fixed top-0 inset-x-0 z-40 px-3 pt-3">
-        <div className="flex justify-end">
-          <button
-            onClick={onToggleTheme}
-            aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
-            className="neu-badge w-10 h-10"
-          >
-            <ThemeIcon className="w-5 h-5 text-gold-500 dark:text-gold-300" strokeWidth={1.75} />
-          </button>
-        </div>
+      {/* Top right theme toggle button (visible on mobile and desktop) */}
+      <div className="fixed top-3 right-3 sm:top-4 sm:right-6 z-40">
+        <button
+          onClick={onToggleTheme}
+          aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+          className="neu-badge w-10 h-10 sm:w-11 sm:h-11 hover:scale-105 transition-transform"
+        >
+          <ThemeIcon className="w-5 h-5 text-gold-500 dark:text-gold-300" strokeWidth={1.75} />
+        </button>
       </div>
 
+      {/* Mobile: bottom tab bar */}
       <nav className="md:hidden fixed bottom-0 inset-x-0 z-40">
         <div className="mx-3 mb-3 neu-surface px-2 py-2 flex items-center justify-around overflow-x-auto no-scrollbar">
           <button
@@ -86,7 +85,7 @@ export function Navigation({ active, onNavigate, theme, onToggleTheme }: Navigat
         </div>
       </nav>
 
-      {/* Desktop: persistent sidebar with theme toggle at bottom */}
+      {/* Desktop: persistent sidebar */}
       <aside className="hidden md:flex flex-col gap-2 w-64 shrink-0 p-4 sticky top-0 h-screen overflow-y-auto">
         <button
           onClick={() => onNavigate('home')}
@@ -124,19 +123,6 @@ export function Navigation({ active, onNavigate, theme, onToggleTheme }: Navigat
             </button>
           );
         })}
-
-        <div className="mt-auto pt-4">
-          <button
-            onClick={onToggleTheme}
-            aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
-            className="neu-surface-sm p-3 flex items-center gap-3 text-left w-full text-ink-700 dark:text-parchment-200"
-          >
-            <ThemeIcon className="w-5 h-5 text-gold-500 dark:text-gold-300 shrink-0" strokeWidth={1.75} />
-            <span className="font-medium text-sm">
-              {theme === 'dark' ? 'Light mode' : 'Dark mode'}
-            </span>
-          </button>
-        </div>
       </aside>
     </>
   );
