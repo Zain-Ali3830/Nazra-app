@@ -20,6 +20,7 @@ export interface Kalma {
   translation_ur: string;
   virtue_en?: string;
   virtue_ur?: string;
+  audio?: string;
 }
 
 export interface Category {

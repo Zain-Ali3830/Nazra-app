@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { BackArrowIcon, KalmaIcon, ChevronRightIcon } from '../components/IslamicIcons';
+import { BackArrowIcon, KalmaIcon, ChevronRightIcon, VolumeIcon } from '../components/IslamicIcons';
 import type { Kalma } from '../types';
 import { PageHeader } from '../components/PageHeader';
 import { BilingualText } from '../components/BilingualText';
+import { AudioPlayer } from '../components/AudioPlayer';
 
 interface SixKalmasProps {
   kalmas: Kalma[];
@@ -45,7 +46,7 @@ export function SixKalmas({ kalmas, onBack }: SixKalmasProps) {
           >
             <BackArrowIcon className="w-5 h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
           </button>
-          <div className="min-w-0">
+          <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2 mb-0.5">
               <span className={`text-xs font-bold uppercase tracking-widest ${numColorClass}`}>
                 Kalma #{selected.number}
@@ -57,6 +58,9 @@ export function SixKalmas({ kalmas, onBack }: SixKalmasProps) {
             <p className="text-sm font-semibold text-ink-700 dark:text-parchment-200">{selected.name_en}</p>
           </div>
         </div>
+
+        {/* Audio Player */}
+        <AudioPlayer src={selected.audio ?? ''} arabicText={selected.arabic} title={selected.name_en} />
 
         {/* Arabic + translations */}
         <BilingualText
@@ -97,7 +101,7 @@ export function SixKalmas({ kalmas, onBack }: SixKalmasProps) {
         onBack={onBack}
       >
         <p className="text-sm text-ink-600 dark:text-parchment-300 mt-2">
-          The Six Kalmas are the core declarations of Islamic faith. Tap any Kalma to read the full text with translation.
+          The Six Kalmas are the core declarations of Islamic faith. Tap any Kalma to read the full text and listen to the audio recitation.
         </p>
       </PageHeader>
 
@@ -119,16 +123,26 @@ export function SixKalmas({ kalmas, onBack }: SixKalmasProps) {
                     {kalma.number}
                   </div>
                   <div className="min-w-0">
-                    <p dir="rtl" lang="ur" className="font-urdu text-xl leading-snug text-ink-800 dark:text-parchment-100 mb-3">
-                      {kalma.name_ur}
-                    </p>
-                    <p className="text-sm font-semibold text-ink-600 dark:text-parchment-200">
-                      {kalma.name_en}
-                    </p>
+                    <div className="flex items-center gap-2 mb-1">
+                      <p dir="rtl" lang="ur" className="font-urdu text-xl leading-snug text-ink-800 dark:text-parchment-100">
+                        {kalma.name_ur}
+                      </p>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <p className="text-sm font-semibold text-ink-600 dark:text-parchment-200">
+                        {kalma.name_en}
+                      </p>
+                      {kalma.audio && (
+                        <span className="inline-flex items-center gap-1 text-[11px] font-medium text-mint-700 dark:text-gold-300 bg-mint-500/10 dark:bg-gold-300/10 px-2 py-0.5 rounded-full border border-mint-500/20 dark:border-gold-300/20">
+                          <VolumeIcon className="w-3 h-3" /> Audio
+                        </span>
+                      )}
+                    </div>
                   </div>
                 </div>
                 <ChevronRightIcon className="w-5 h-5 text-ink-400 dark:text-parchment-400 shrink-0 mt-1 group-hover:translate-x-0.5 transition-transform" />
               </div>
+
               {/* Arabic preview */}
               <p
                 dir="rtl"

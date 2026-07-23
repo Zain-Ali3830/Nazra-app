@@ -9,7 +9,8 @@
     "translation_en": "There is no god but Allah, Muhammad is the Messenger of Allah.",
     "translation_ur": "اللہ کے سوا کوئی معبود نہیں، محمد ﷺ اللہ کے رسول ہیں۔",
     "virtue_en": "This is the foundation of Islamic faith (Shahadah). Reciting it with sincerity is the key to entering Islam. It is recommended to recite it frequently throughout the day.",
-    "virtue_ur": "یہ اسلامی ایمان کی بنیاد ہے۔ اسے سچے دل سے پڑھنا اسلام میں داخلے کی کنجی ہے۔ دن میں کثرت سے پڑھنا مستحب ہے۔"
+    "virtue_ur": "یہ اسلامی ایمان کی بنیاد ہے۔ اسے سچے دل سے پڑھنا اسلام میں داخلے کی کنجی ہے۔ دن میں کثرت سے پڑھنا مستحب ہے۔",
+    "audio": "/audio/kalma1.mp3"
   },
   {
     "id": "kalma-2",
@@ -21,7 +22,8 @@
     "translation_en": "I bear witness that there is no god but Allah, alone without any partner, and I bear witness that Muhammad is His servant and His Messenger.",
     "translation_ur": "میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اور میں گواہی دیتا ہوں کہ محمد ﷺ اس کے بندے اور رسول ہیں۔",
     "virtue_en": "This is the Shahadah (testimony of faith), the first pillar of Islam. It is recited during the Adhan, Iqamah, Salah, and at the time of death. Dying with the Shahadah on one's lips is a great blessing.",
-    "virtue_ur": "یہ اسلام کا پہلا رکن ہے۔ اسے اذان، اقامت، نماز اور موت کے وقت پڑھا جاتا ہے۔ اس کے ساتھ مرنا بہت بڑی سعادت ہے۔"
+    "virtue_ur": "یہ اسلام کا پہلا رکن ہے۔ اسے اذان، اقامت، نماز اور موت کے وقت پڑھا جاتا ہے۔ اس کے ساتھ مرنا بہت بڑی سعادت ہے۔",
+    "audio": "/audio/kalma2.mp3"
   },
   {
     "id": "kalma-3",
@@ -33,7 +35,8 @@
     "translation_en": "Glory be to Allah, and all praise be to Allah, and there is no god but Allah, and Allah is the Greatest, and there is no power and no strength except with Allah, the Most High, the Most Great.",
     "translation_ur": "اللہ پاک ہے، تمام تعریف اللہ کے لیے ہے، اللہ کے سوا کوئی معبود نہیں، اللہ سب سے بڑا ہے، اور نہ کوئی طاقت ہے نہ قوت مگر اللہ کی، جو بہت بلند اور بہت عظیم ہے۔",
     "virtue_en": "Known as the 'four kalimas of glorification', these phrases (Subhanallah, Alhamdulillah, La ilaha illallah, Allahu Akbar) are the most beloved words to Allah. The Prophet ﷺ said they are the 'enduring good deeds.'",
-    "virtue_ur": "یہ اللہ کو سب سے زیادہ محبوب الفاظ ہیں۔ نبی ﷺ نے فرمایا کہ یہ چار کلمے 'باقیات صالحات' ہیں۔"
+    "virtue_ur": "یہ اللہ کو سب سے زیادہ محبوب الفاظ ہیں۔ نبی ﷺ نے فرمایا کہ یہ چار کلمے 'باقیات صالحات' ہیں۔",
+    "audio": "/audio/kalma3.mp3"
   },
   {
     "id": "kalma-4",
@@ -45,7 +48,8 @@
     "translation_en": "There is no god but Allah alone, who has no partner. His is the dominion and His is the praise. He gives life and causes death. He is ever living and will never die. Ever. Possessor of Majesty and Honor. In His hand is all goodness and He has power over all things.",
     "translation_ur": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، بادشاہی اسی کی ہے اور تعریف بھی اسی کی، وہ زندگی دیتا ہے اور موت دیتا ہے، وہ ہمیشہ زندہ رہنے والا ہے اور کبھی نہیں مرے گا، وہ عظمت اور بزرگی والا ہے، تمام بھلائی اسی کے ہاتھ میں ہے اور وہ ہر چیز پر قادر ہے۔",
     "virtue_en": "This Kalma affirms the absolute oneness of Allah (Tawheed) and His eternal attributes. It encapsulates the complete belief in Allah's sovereignty, power, and mercy.",
-    "virtue_ur": "یہ کلمہ اللہ کی مکمل وحدانیت اور اس کی ابدی صفات کا اقرار کرتا ہے۔ یہ اللہ کی بادشاہت، قدرت اور رحمت پر کامل یقین کو بیان کرتا ہے۔"
+    "virtue_ur": "یہ کلمہ اللہ کی مکمل وحدانیت اور اس کی ابدی صفات کا اقرار کرتا ہے۔ یہ اللہ کی بادشاہت، قدرت اور رحمت پر کامل یقین کو بیان کرتا ہے۔",
+    "audio": "/audio/kalma4.mp3"
   },
   {
     "id": "kalma-5",
@@ -57,18 +61,20 @@
     "translation_en": "I seek forgiveness from Allah, my Lord, for every sin that I have committed intentionally or by mistake, secretly or openly. And I turn to Him in repentance for the sin that I know and the sin that I do not know. Indeed, You are the Knower of all unseen things, the Concealer of faults, the Forgiver of sins. And there is no power or strength except with Allah, the Most High, the Most Great.",
     "translation_ur": "میں اللہ سے، جو میرا رب ہے، ہر اس گناہ کی معافی مانگتا ہوں جو میں نے جان بوجھ کر یا غلطی سے، چھپ کر یا کھلم کھلا کیا۔ اور میں اس کی طرف اس گناہ سے توبہ کرتا ہوں جسے میں جانتا ہوں اور اس سے بھی جسے نہیں جانتا۔ بے شک تو ہی غیبوں کا جاننے والا ہے، عیبوں کو ڈھانپنے والا ہے، گناہوں کو معاف کرنے والا ہے۔ اور نہ کوئی طاقت ہے نہ قوت مگر اللہ کی، جو بہت بلند اور بہت عظیم ہے۔",
     "virtue_en": "This Kalma is a comprehensive supplication for forgiveness (Istighfar). The Prophet ﷺ used to seek Allah's forgiveness more than 70 times a day. Regular recitation purifies the heart and erases sins.",
-    "virtue_ur": "یہ کلمہ مغفرت کی ایک جامع دعا ہے۔ نبی ﷺ دن میں ستر سے زیادہ بار استغفار فرماتے تھے۔ اسے پڑھتے رہنے سے دل صاف ہوتا ہے اور گناہ مٹتے ہیں۔"
+    "virtue_ur": "یہ کلمہ مغفرت کی ایک جامع دعا ہے۔ نبی ﷺ دن میں ستر سے زیادہ بار استغفار فرماتے تھے۔ اسے پڑھتے رہنے سے دل صاف ہوتا ہے اور گناہ مٹتے ہیں۔",
+    "audio": "/audio/kalma5.mp3"
   },
   {
     "id": "kalma-6",
     "number": 6,
     "name_en": "Sixth Kalma — Radde Kufr (Rejection of Disbelief)",
     "name_ur": "چھٹا کلمہ — کلمہ ردِ کفر",
-    "arabic": "اَللّٰهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ أَنْ أُشْرِكَ بِكَ شَيْئًا وَّأَنَا أَعْلَمُ بِهِ وَأَسْتَغْفِرُكَ لِمَا لَا أَعْلَمُ بِهِ تُبْتُ عَنْهُ وَتَبَرَّأْتُ مِنَ الْكُفْرِ وَالشِّرْكِ وَالْكِذْبِ وَالْغِيبَةِ وَالْبِدْعَةِ وَالنَّمِيمَةِ وَالْفَوَاحِشِ وَالْبُهْتَانِ وَالْمَعَاصِي كُلِّهَا وَأَسْلَمْتُ وَأَقُولُ لَا إِلٰهَ إِلَّا اللّٰهُ مُحَمَّدٌ رَّسُولُ اللّٰهِ",
+    "arabic": "اَللّٰهُمَّ إِنِّي أُعُوذُ بِكَ مِنْ أَنْ أُشْرِكَ بِكَ شَيْئًا وَّأَنَا أَعْلَمُ بِهِ وَأَسْتَغْفِرُكَ لِمَا لَا أَعْلَمُ بِهِ تُبْتُ عَنْهُ وَتَبَرَّأْتُ مِنَ الْكُفْرِ وَالشِّرْكِ وَالْكِذْبِ وَالْغِيبَةِ وَالْبِدْعَةِ وَالنَّمِيمَةِ وَالْفَوَاحِشِ وَالْبُهْتَانِ وَالْمَعَاصِي كُلِّهَا وَأَسْلَمْتُ وَأَقُولُ لَا إِلٰهَ إِلَّا اللّٰهُ مُحَمَّدٌ رَّسُولُ اللّٰهِ",
     "transliteration": "Allaahumma innee a'oodhu bika min an ushrika bika shay'an wa ana a'lamu bihee wa astaghfiruka limaa laa a'lamu bih, tubtu 'anhu wa tabarr'atu minal kufri wash-shirki wal-kidhibi wal-gheebati wal-bid'ati wan-nameemati wal-fawaahishi wal-buhtaani wal-ma'aasee kullihaa wa aslamtu wa aqoolu laa ilaaha illallaahu Muhammadur-Rasoolullaah",
     "translation_en": "O Allah! I seek Your protection from knowingly associating any partner with You, and I seek Your forgiveness for what I do not know. I repent from it and declare myself free from disbelief, polytheism, falsehood, backbiting, innovation, tale-bearing, obscenities, slander, and all forms of disobedience. I submit to Islam and declare: There is no god but Allah, Muhammad is the Messenger of Allah.",
     "translation_ur": "اے اللہ! میں جان بوجھ کر تیرے ساتھ کسی کو شریک کرنے سے تیری پناہ مانگتا ہوں، اور جو مجھے معلوم نہیں اس کے لیے تجھ سے معافی مانگتا ہوں۔ میں نے اس سے توبہ کی اور میں نے کفر، شرک، جھوٹ، غیبت، بدعت، چغل خوری، بے حیائی، بہتان اور تمام گناہوں سے برأت کی۔ میں نے اسلام قبول کیا اور کہتا ہوں: اللہ کے سوا کوئی معبود نہیں، محمد ﷺ اللہ کے رسول ہیں۔",
     "virtue_en": "This Kalma is a declaration of repentance and freedom from all forms of disbelief and sin. It reaffirms one's commitment to Islam and is a powerful protection against Kufr (disbelief) and Shirk (polytheism).",
-    "virtue_ur": "یہ کلمہ توبہ اور تمام اقسام کے کفر اور گناہوں سے برأت کا اعلان ہے۔ یہ اسلام پر عزم کا اعادہ کرتا ہے اور کفر اور شرک کے خلاف ایک مضبوط ڈھال ہے۔"
+    "virtue_ur": "یہ کلمہ توبہ اور تمام اقسام کے کفر اور گناہوں سے برأت کا اعلان ہے۔ یہ اسلام پر عزم کا اعادہ کرتا ہے اور کفر اور شرک کے خلاف ایک مضبوط ڈھال ہے۔",
+    "audio": "/audio/kalma6.mp3"
   }
 ]
