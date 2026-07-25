@@ -54,7 +54,7 @@
         "id": "wudu-2",
         "title_en": "Say Bismillah",
         "title_ur": "بسم اللہ پڑھنا",
-        "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "arabic": "بِسۡمِ اللَّهِ الرَّحۡمَٰنِ الرَّحِيمِ",
         "transliteration": "Bismillah-ir-Rahman-ir-Raheem",
         "translation_en": "In the name of Allah, the Most Gracious, the Most Merciful.",
         "translation_ur": "اللہ کے نام سے شروع جو نہایت مہربان، رحم کرنے والا ہے۔"
@@ -205,7 +205,7 @@
         "title_ur": "نیت اور تکبیرِ تحریمہ",
         "instruction_en": "Face the Qibla, make the intention for the specific prayer, then raise both hands to the ears and say 'Allahu Akbar' to begin the prayer.",
         "instruction_ur": "قبلہ رخ ہو کر متعلقہ نماز کی نیت کریں، پھر دونوں ہاتھ کانوں تک اٹھا کر 'اللہ اکبر' کہیں اور نماز شروع کریں۔",
-        "arabic": "اللَّهُ أَكْبَرُ",
+        "arabic": "اللّٰهُ أَكۡبَرُ",
         "transliteration": "Allahu Akbar",
         "translation_en": "Allah is the Greatest."
       },
@@ -213,8 +213,8 @@
         "id": "salah-2",
         "title_en": "Qiyam (Standing) — Sana, Ta'awwuz, Tasmiyah, Al-Fatiha, and a Surah",
         "title_ur": "قیام — ثنا، تعوذ، تسمیہ، سورۃ فاتحہ اور کوئی سورت",
-        "instruction_en": "Fold your hands below the navel (men) or on the chest (per one's school), recite Sana, then Al-Fatiha, then a short surah such as Al-Ikhlas.",
-        "instruction_ur": "ہاتھ ناف کے نیچے (مردوں کے لیے) باندھیں، ثنا پڑھیں، پھر سورۃ فاتحہ اور کوئی مختصر سورت جیسے سورۃ اخلاص پڑھیں۔"
+        "instruction_en": "Fold your hands below the navel (men) or on the chest (per one's school), recite Sana, then Al-Fatiha (see surahs.alFatiha below), then a short surah such as Al-Ikhlas (see surahs.alIkhlas).",
+        "instruction_ur": "ہاتھ ناف کے نیچے (مردوں کے لیے) باندھیں، ثنا پڑھیں، پھر سورۃ فاتحہ (نیچے surahs.alFatiha دیکھیں) اور کوئی مختصر سورت جیسے سورۃ اخلاص (surahs.alIkhlas دیکھیں) پڑھیں۔"
       },
       {
         "id": "salah-3",
@@ -248,27 +248,16 @@
         "id": "salah-7",
         "title_en": "Tashahhud (At-tahiyyat)",
         "title_ur": "تشہد (التحیات)",
-        "instruction_en": "After the second sajdah of the second rakah, sit down and recite At-tahiyyat.",
-        "instruction_ur": "دوسری رکعت کے دوسرے سجدے کے بعد بیٹھ کر التحیات پڑھیں۔",
-        "arabic": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ ۖ السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَکَاتُهُ ۖ السَّلَامُ عَلَيْنَا وَعَلَىٰ عِبَادِ اللَّهِ الصَّالِحِينَ ۖ أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
-        "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibatu, as-salamu 'alayka ayyuhan-nabiyyu wa rahmatullahi wa barakatuhu, as-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu alla ilaha illallahu wa ash-hadu anna Muhammadan 'abduhu wa rasuluh.",
-        "translation_en": "All compliments, prayers and pure words are due to Allah. Peace be upon you, O Prophet, and the mercy of Allah and His blessings. Peace be upon us and upon the righteous servants of Allah. I bear witness that there is no god except Allah, and I bear witness that Muhammad is His servant and messenger.",
-        "translation_ur": "تمام زبان کی عبادتیں، بدنی عبادتیں اور مالی عبادتیں اللہ ہی کے لیے ہیں۔ سلام ہو آپ پر اے نبی اور اللہ کی رحمت اور اس کی برکتیں ہوں۔ سلام ہو ہم پر اور اللہ کے نیک بندوں پر۔ میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں اور میں گواہی دیتا ہوں کہ محمد اس کے بندے اور رسول ہیں۔"
+        "arabic":"اَلتَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ ۚ اَلسَّلَامُ عَلَيۡكَ اَيُّهَا النَّبِىُّ وَرَحۡمَةُ اللّٰهِ وَبَرَكَاتُهٗ ۚ اَلسَّلَامُ عَلَيۡنَا وَعَلٰى عِبَادِ اللّٰهِ الصَّالِحِيۡنَ ۚ اَشۡهَدُ اَنۡ لَّاۤ اِلٰهَ اِلَّا اللّٰهُ وَاَشۡهَدُ اَنَّ مُحَمَّدًا عَبۡدُهٗ وَرَسُولُهٗ\nاَللّٰهُمَّ صَلِّ عَلٰى مُحَمَّدٍ وَّعَلٰى اٰلِ مُحَمَّدٍ كَمَا صَلَّيۡتَ عَلٰى اِبۡرَاهِيۡمَ وَعَلٰى اٰلِ اِبۡرَاهِيۡمَ اِنَّكَ حَمِيۡدٌ مَّجِيۡدٌ ۝ اَللّٰهُمَّ بَارِكۡ عَلٰى مُحَمَّدٍ وَّعَلٰى اٰلِ مُحَمَّدٍ كَمَا بَارَكۡتَ عَلٰى اِبۡرَاهِيۡمَ وَعَلٰى اٰلِ اِبۡرَاهِيۡمَ اِنَّكَ حَمِيۡدٌ مَّجِيۡد ۝  \nرَبِّ اجۡعَلۡنِىۡ مُقِيۡمَ الصَّلٰوةِ وَمِنۡ ذُرِّيَّتِىۡ رَبَّنَا وَتَقَبَّلۡ دُعَآءِ ۝ رَبَّنَا اغۡفِرۡ لِىۡ وَلِوَالِدَىَّ وَلِلۡمُؤۡمِنِيۡنَ يَوۡمَ يَقُوۡمُ الۡحِسَابُ  ",
+        "instruction_en": "After the second sajdah of the second rakah, sit and recite At-tahiyyat. If this is the last rakah of the prayer, continue with Durood and Dua; otherwise stand for the next rakah after At-tahiyyat.",
+        "instruction_ur": "دوسری رکعت کے دوسرے سجدے کے بعد بیٹھ کر التحیات پڑھیں۔ اگر یہ نماز کی آخری رکعت ہے تو درود اور دعا پڑھیں، ورنہ التحیات کے بعد اگلی رکعت کے لیے کھڑے ہوں۔"
       },
       {
         "id": "salah-8",
-        "title_en": "Durood and Dua Masoorah",
-        "title_ur": "درود اور دعائے ماثورہ",
-        "instruction_en": "In the final sitting, right after At-tahiyyat, recite Durood Ibrahim followed by Dua Masoorah (Rabbij'alni).",
-        "instruction_ur": "آخری قعدے میں التحیات کے فوراً بعد درودِ ابراہیم اور پھر دعائے ماثورہ (رب اجعلنی) پڑھیں۔",
-        "durood_arabic": "اللَّهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ. اللَّهُمَّ بَارِكْ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
-        "durood_transliteration": "Allahumma salli 'ala Muhammadin wa 'ala ali Muhammadin, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahima, innaka Hamidum Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammadin, kama barakta 'ala Ibrahima wa 'ala ali Ibrahima, innaka Hamidum Majid.",
-        "durood_en": "O Allah, send prayers upon Muhammad and upon the family of Muhammad, as You sent prayers upon Ibrahim and upon the family of Ibrahim; You are indeed Praiseworthy, Most Glorious. O Allah, bless Muhammad and the family of Muhammad, as You blessed Ibrahim and the family of Ibrahim; You are indeed Praiseworthy, Most Glorious.",
-        "durood_ur": "اے اللہ! محمد (صلی اللہ علیہ وآلہ وسلم) پر اور ان کی آل پر رحمت بھیج، جیسے تو نے ابراہیم علیہ السلام پر اور ان کی آل پر رحمت بھیجی، بے شک تو تعریف کا مستحق بڑی بزرگی والا ہے۔ اے اللہ! محمد (صلی اللہ علیہ وآلہ وسلم) پر اور ان کی آل پر برکت نازل فرما، جیسے تو نے ابراہیم علیہ السلام پر اور ان کی آل پر برکت نازل فرمائی، بے شک تو تعریف کا مستحق بڑی بزرگی والا ہے۔",
-        "dua_arabic": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمِن ذُرِّيَّتِي ۚ رَبَّنَا وَتَقَبَّلْ دُعَاءِ. رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
-        "dua_transliteration": "Rabbij-'alni muqimas-salati wa min dhurriyyati Rabbana wa taqabbal du'a. Rabbanagh-fir li wa li-walidayya wa lil-mu'mineena yawma yaqumul-hisab.",
-        "dua_en": "My Lord, make me an establisher of prayer, and from my descendants. Our Lord, and accept my supplication. Our Lord, forgive me and my parents and the believers the Day the account is established.",
-        "dua_ur": "اے میرے رب! مجھے نماز قائم کرنے والا بنا دے اور میری اولاد میں سے بھی (ایسے لوگ پیدا کر)، اے ہمارے رب! اور میری دعا قبول فرما۔ اے ہمارے رب! مجھے بخش دے اور میرے والدین کو بھی اور سب مومنوں کو بھی، جس دن حساب قائم ہوگا۔"
+        "title_en": "Durood and Dua",
+        "title_ur": "درود اور دعا",
+        "instruction_en": "In the final sitting, after At-tahiyyat, recite Durood Ibrahim, then any dua from the Quran or Sunnah.",
+        "instruction_ur": "آخری قعدے میں التحیات کے بعد درود ابراہیم پڑھیں، پھر قرآن یا سنت سے کوئی دعا پڑھیں۔"
       },
       {
         "id": "salah-9",
@@ -284,7 +273,7 @@
       "alFatiha": {
         "title_en": "Surah Al-Fatiha",
         "title_ur": "سورۃ الفاتحہ",
-        "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ * الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ * الرَّحْمَٰنِ الرَّحِيمِ * مَالِكِ يَوْمِ الدِّينِ * إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ * اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ * صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+        "arabic": "بِسۡمِ اللَّهِ الرَّحۡمَٰنِ الرَّحِيمِ * اَلۡحَمۡدُ لِلَّهِ رَبِّ الۡعَالَمِينَ * الرَّحۡمَٰنِ الرَّحِيمِ * مَالِكِ يَوۡمِ الدِّينِ * إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ * اِهۡدِنَا الصِّرَاطَ الۡمُسۡتَقِيمَ * صِرَاطَ الَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ غَيۡرِ الۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا الضَّآلِّينَ",
         "transliteration": "Bismillahir-Rahmanir-Raheem. Alhamdu lillahi Rabbil-'alameen. Ar-Rahmanir-Raheem. Maliki yawmid-deen. Iyyaka na'budu wa iyyaka nasta'een. Ihdinas-siratal-mustaqeem. Siratal-lazeena an'amta 'alayhim ghayril-maghdoobi 'alayhim wa lad-dalleen.",
         "translation_en": "In the name of Allah, the Most Gracious, the Most Merciful. All praise is for Allah, Lord of all the worlds. The Most Gracious, the Most Merciful. Master of the Day of Judgement. You alone we worship, and You alone we ask for help. Guide us on the straight path - the path of those You have blessed, not of those who earned Your anger, nor of those who went astray.",
         "translation_ur": "اللہ کے نام سے جو نہایت مہربان، رحم کرنے والا ہے۔ تمام تعریفیں اللہ کے لیے ہیں جو تمام جہانوں کا پالنے والا ہے۔ نہایت مہربان، رحم کرنے والا۔ جزا کے دن کا مالک۔ ہم صرف تیری عبادت کرتے ہیں اور صرف تجھ سے مدد مانگتے ہیں۔ ہمیں سیدھا راستہ دکھا۔ اُن لوگوں کا راستہ جن پر تُو نے انعام کیا، نہ اُن کا جن پر غضب ہوا اور نہ گمراہوں کا۔"
@@ -292,7 +281,7 @@
       "alIkhlas": {
         "title_en": "Surah Al-Ikhlas",
         "title_ur": "سورۃ الاخلاص",
-        "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ * اللَّهُ الصَّمَدُ * لَمْ يَلِدْ وَلَمْ يُولَد * وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+        "arabic": "قُلۡ هُوَ اللّٰهُ أَحَدٌ * اللّٰهُ الصَّمَدُ * لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ * وَلَمۡ يَكُن لّٰهٗ كُفُوًا أَحَدٌ",
         "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yoolad. Wa lam yakun lahu kufuwan ahad.",
         "translation_en": "Say: He is Allah, the One. Allah, the Self-Sufficient Sustainer of all. He neither begets nor is born. Nor is there anyone equal to Him.",
         "translation_ur": "کہہ دیجیے: وہ اللہ ایک ہے۔ اللہ بے نیاز ہے۔ نہ اُس نے کسی کو جنا اور نہ وہ جنا گیا۔ اور کوئی اُس کا ہمسر نہیں۔"
@@ -303,7 +292,7 @@
     "title_en": "Ayat-ul-Kursi",
     "title_ur": "آیت الکرسی",
     "reference": "Surah Al-Baqarah 2:255",
-    "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+    "arabic": "اللّٰهُ لَا إِلَٰهَ إِلَّا هُوَ الۡحَيُّ الۡقَيُّومُ ۚ لَا تَأۡخُذُهُ سِنَةٌ وَلَا نَوۡمٌ ۚ لَهٗ مَا فِي السَّمَاوَاتِ وَمَا فِي الۡأَرۡضِ ۗ مَن ذَا الَّذِي يَشۡفَعُ عِندَهٗ إِلَّا بِإِذۡنِهِ ۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡ ۖ وَلَا يُحِيطُونَ بِشَيۡءٍ مِّنۡ عِلۡمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرۡسِيُّهُ السَّمٰوَاتِ وَالۡأَرۡضَ ۖ وَلَا يَئُودُهُ حِفۡظُهُمَا ۚ وَهُوَ الۡعَلِيُّ الۡعَظِيمُ",
     "transliteration": "Allahu la ilaha illa huwa, al-Hayyul-Qayyum. La ta'khudhuhu sinatun wa la nawm. Lahu ma fis-samawati wa ma fil-ard. Man dhal-ladhi yashfa'u 'indahu illa bi-idhnih. Ya'lamu ma bayna aydihim wa ma khalfahum, wa la yuhituna bishay'im-min 'ilmihi illa bima sha'. Wasi'a kursiyyuhus-samawati wal-ard, wa la ya'uduhu hifzuhuma, wa huwal-'Aliyyul-'Azim.",
     "translation_en": "Allah — there is no deity except Him, the Ever-Living, the Sustainer of existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is before them and what will be after them, and they encompass nothing of His knowledge except what He wills. His footstool (Kursi) extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great.",
     "translation_ur": "اللہ، اُس کے سوا کوئی معبود نہیں، وہ زندہ ہے، ہر چیز کو سنبھالنے والا ہے۔ نہ اُسے اونگھ آتی ہے نہ نیند۔ آسمانوں اور زمین میں جو کچھ ہے سب اُسی کا ہے۔ کون ہے جو اُس کے حضور اُس کی اجازت کے بغیر سفارش کر سکے؟ وہ جانتا ہے جو کچھ اُن کے سامنے ہے اور جو کچھ اُن کے پیچھے ہے، اور وہ اُس کے علم میں سے کسی چیز کا احاطہ نہیں کر سکتے مگر جتنا وہ چاہے۔ اُس کی کرسی نے آسمانوں اور زمین کو گھیر رکھا ہے، اور اُن دونوں کی حفاظت اُسے تھکاتی نہیں، اور وہی سب سے بلند، سب سے بڑا ہے۔",
@@ -315,7 +304,7 @@
     "title_ur": "دعائے قنوت",
     "usage_en": "Recited in the third rakah of Witr prayer, after Al-Fatiha and a surah, before going into Ruku.",
     "usage_ur": "وتر کی نماز کی تیسری رکعت میں، سورۃ فاتحہ اور سورت کے بعد، رکوع سے پہلے پڑھی جاتی ہے۔",
-    "arabic": "اللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُؤْمِنُ بِكَ وَنتَوَكَّلُ عَلَيْكَ وَنُثْنِي عَلَيْكَ الْخَيْرَ وَنَشْكُرُكَ وَلَا نَكْفُرُكَ وَنَخْلَعُ وَنَتْرُکُ مَنْ يَفْجُرُكَ. اللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّي وَنَسْجُدُ وَإِلَيْكَ نَسْعَى وَنَحْفِدُ نَرْجُو رَحْمَتَكَ وَنَخْشَى عَذَابَكَ إِنَّ عَذَابَكَ بِالْكُفَّارِ مُلْحِقٌ",
+    "arabic": "اللّٰهُمَّ إِنَّا نَسۡتَعِينُكَ وَنَسۡتَغۡفِرُكَ وَنُؤۡمِنُ بِكَ وَنَتَوَكَّلُ عَلَيۡكَ وَنُثۡنِي عَلَيۡكَ الۡخَيۡرَ وَنَشۡكُرُكَ وَلَا نَكۡفُرُكَ وَنَخۡلَعُ وَنَتۡرُكُ مَنۡ يَفۡجُرُكَ. اللّٰهُمَّ إِيَّاكَ نَعۡبُدُ وَلَكَ نُصَلِّي وَنَسۡجُدُ وَإِلَيۡكَ نَسۡعَى وَنَحۡفِدُ وَنَرۡجُو رَحۡمَتَكَ وَنَخۡشٰى عَذَابَكَ إِنَّ عَذَابَكَ بِالۡكُفَّارِ مُلۡحِقٌ",
     "transliteration": "Allahumma inna nasta'inuka wa nastaghfiruka wa nu'minu bika wa natawakkalu 'alayka wa nuthni 'alaykal-khayra wa nashkuruka wa la nakfuruka wa nakhla'u wa natruku mai-yafjuruk. Allahumma iyyaka na'budu wa laka nusalli wa nasjudu wa ilayka nas'a wa nahfidu narju rahmataka wa nakhsha 'adhabaka inna 'adhabaka bil-kuffari mulhiq.",
     "translation_en": "O Allah, we seek Your help, we seek Your forgiveness, we believe in You, we put our trust in You, we praise You in the best way, we thank You and we do not disbelieve in You. We cast off and forsake whoever disobeys You. O Allah, You alone we worship, to You we pray and prostrate, to You we strive and hasten. We hope for Your mercy and fear Your punishment. Indeed, Your punishment overtakes the disbelievers.",
     "translation_ur": "اے اللہ! ہم تجھ سے مدد مانگتے ہیں اور تجھ سے بخشش مانگتے ہیں، ہم تجھ پر ایمان رکھتے ہیں اور تجھ پر بھروسہ کرتے ہیں، ہم تیری بہترین تعریف کرتے ہیں اور تیرا شکر ادا کرتے ہیں، اور تیری ناشکری نہیں کرتے، اور جو تیری نافرمانی کرے ہم اُس سے علیحدگی اختیار کرتے اور اُسے چھوڑ دیتے ہیں۔ اے اللہ! ہم صرف تیری عبادت کرتے ہیں اور تیرے ہی لیے نماز پڑھتے اور سجدہ کرتے ہیں، اور تیری ہی طرف دوڑتے اور کوشش کرتے ہیں، ہم تیری رحمت کی امید رکھتے ہیں اور تیرے عذاب سے ڈرتے ہیں، بے شک تیرا عذاب کافروں کو آ لینے والا ہے۔"
@@ -325,7 +314,7 @@
       "id": "dua-before-eating",
       "occasion_en": "Before Eating",
       "occasion_ur": "کھانا شروع کرنے سے پہلے",
-      "arabic": "بِسْمِ اللَّهِ",
+      "arabic": "بِسۡمِ اللَّهِ",
       "transliteration": "Bismillah",
       "translation_en": "In the name of Allah.",
       "translation_ur": "اللہ کے نام سے۔"
@@ -334,7 +323,7 @@
       "id": "dua-after-eating",
       "occasion_en": "After Eating",
       "occasion_ur": "کھانا کھانے کے بعد",
-      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَٰذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِّنِّي وَلَا قُوَّةٍ",
+      "arabic": "الۡحَمۡدُ لِلَّهِ الَّذِي أَطۡعَمَنِي هَٰذَا وَرَزَقَنِيهِ مِنۡ غَيۡرِ حَوۡلٍ مِّنِّي وَلَا قُوَّةٍ",
       "transliteration": "Alhamdu lillahil-ladhi at'amani hadha wa razaqanihi min ghayri hawlim-minni wa la quwwah",
       "translation_en": "All praise is for Allah who fed me this and provided it for me, without any power or strength on my part.",
       "translation_ur": "تمام تعریفیں اُس اللہ کے لیے ہیں جس نے مجھے یہ کھلایا اور میری کسی طاقت یا قوت کے بغیر مجھے یہ عطا کیا۔"
@@ -343,7 +332,7 @@
       "id": "dua-entering-home",
       "occasion_en": "Entering the Home",
       "occasion_ur": "گھر میں داخل ہوتے وقت",
-      "arabic": "بِسْمِ اللَّهِ وَلَجْنَا وَبِسْمِ اللَّهِ خَرَجْنَا وَعَلَى رَبِّنَا تَوَكَّلْنَا",
+      "arabic": "بِسۡمِ اللَّهِ وَلَجۡنَا وَبِسۡمِ اللَّهِ خَرَجۡنَا وَعَلَى رَبِّنَا تَوَكَّلۡنَا",
       "transliteration": "Bismillahi walajna wa bismillahi kharajna wa 'ala Rabbina tawakkalna",
       "translation_en": "In the name of Allah we enter, and in the name of Allah we leave, and upon our Lord we place our trust.",
       "translation_ur": "اللہ کے نام سے ہم داخل ہوئے، اللہ کے نام سے ہم نکلے، اور اپنے رب پر ہم نے بھروسہ کیا۔"
@@ -352,7 +341,7 @@
       "id": "dua-leaving-home",
       "occasion_en": "Leaving the Home",
       "occasion_ur": "گھر سے نکلتے وقت",
-      "arabic": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+      "arabic": "بِسۡمِ اللَّهِ تَوَكَّلۡتُ عَلَى اللَّهِ وَلَا حَوۡلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
       "transliteration": "Bismillahi tawakkaltu 'alallahi wa la hawla wa la quwwata illa billah",
       "translation_en": "In the name of Allah, I place my trust in Allah, and there is no power or strength except with Allah.",
       "translation_ur": "اللہ کے نام سے، میں نے اللہ پر بھروسہ کیا، اور کوئی طاقت اور قوت اللہ کے سوا نہیں۔"
@@ -361,7 +350,7 @@
       "id": "dua-entering-masjid",
       "occasion_en": "Entering the Masjid",
       "occasion_ur": "مسجد میں داخل ہوتے وقت",
-      "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "arabic": "اللَّهُمَّ افۡتَحۡ لِي أَبۡوَابَ رَحۡمَتِكَ",
       "transliteration": "Allahummaf-tah li abwaba rahmatik",
       "translation_en": "O Allah, open the doors of Your mercy for me.",
       "translation_ur": "اے اللہ! میرے لیے اپنی رحمت کے دروازے کھول دے۔"
@@ -370,7 +359,7 @@
       "id": "dua-leaving-masjid",
       "occasion_en": "Leaving the Masjid",
       "occasion_ur": "مسجد سے نکلتے وقت",
-      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "arabic": "اللَّهُمَّ إِنِّي أَسۡأَلُكَ مِنۡ فَضۡلِكَ",
       "transliteration": "Allahumma inni as'aluka min fadlik",
       "translation_en": "O Allah, I ask You of Your bounty.",
       "translation_ur": "اے اللہ! میں تجھ سے تیرے فضل کا سوال کرتا ہوں۔"
@@ -379,7 +368,7 @@
       "id": "dua-before-sleeping",
       "occasion_en": "Before Sleeping",
       "occasion_ur": "سونے سے پہلے",
-      "arabic": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+      "arabic": "بِاسۡمِكَ اللَّهُمَّ أَمُوتُ وَأَحۡيَا",
       "transliteration": "Bismika Allahumma amutu wa ahya",
       "translation_en": "In Your name, O Allah, I die and I live.",
       "translation_ur": "اے اللہ! تیرے ہی نام کے ساتھ میں مرتا اور جیتا ہوں۔"
@@ -388,7 +377,7 @@
       "id": "dua-waking-up",
       "occasion_en": "Waking Up",
       "occasion_ur": "نیند سے بیدار ہوتے وقت",
-      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+      "arabic": "الۡحَمۡدُ لِلَّهِ الَّذِي أَحۡيَانَا بَعۡدَ مَا أَمَاتَنَا وَإِلَيۡهِ النُّشُورُ",
       "transliteration": "Alhamdu lillahil-ladhi ahyana ba'da ma amatana wa ilayhin-nushur",
       "translation_en": "All praise is for Allah who gave us life after having caused us to die, and to Him is the return.",
       "translation_ur": "تمام تعریفیں اُس اللہ کے لیے ہیں جس نے ہمیں مارنے کے بعد زندہ کیا، اور اُسی کی طرف لوٹ کر جانا ہے۔"
@@ -397,7 +386,7 @@
       "id": "dua-entering-toilet",
       "occasion_en": "Entering the Toilet",
       "occasion_ur": "بیت الخلاء میں داخل ہوتے وقت",
-      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الۡخُبُثِ وَالۡخَبَائِثِ",
       "transliteration": "Allahumma inni a'udhu bika minal-khubuthi wal-khaba'ith",
       "translation_en": "O Allah, I seek refuge in You from male and female devils.",
       "translation_ur": "اے اللہ! میں ناپاک جنوں اور جنیوں کے شر سے تیری پناہ مانگتا ہوں۔"
@@ -406,7 +395,7 @@
       "id": "dua-leaving-toilet",
       "occasion_en": "Leaving the Toilet",
       "occasion_ur": "بیت الخلاء سے نکلتے وقت",
-      "arabic": "غُفْرَانَكَ",
+      "arabic": "غُفۡرَانَكَ",
       "transliteration": "Ghufranak",
       "translation_en": "I ask You for Your forgiveness.",
       "translation_ur": "میں تیری بخشش مانگتا ہوں۔"
@@ -415,7 +404,7 @@
       "id": "dua-travel",
       "occasion_en": "Setting Out on a Journey",
       "occasion_ur": "سفر شروع کرتے وقت",
-      "arabic": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنقَلِبُونَ",
+      "arabic": "سُبۡحَانَ الَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُ مُقۡرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنقَلِبُونَ",
       "transliteration": "Subhanal-ladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila Rabbina lamunqalibun",
       "translation_en": "Glory to Him who has subjected this to us, and we could never have it (by our efforts). And to our Lord we shall surely return.",
       "translation_ur": "پاک ہے وہ ذات جس نے اسے ہمارے لیے مسخر کیا، ورنہ ہم اسے قابو میں نہیں کر سکتے تھے، اور بے شک ہم اپنے رب کی طرف لوٹنے والے ہیں۔"
@@ -424,7 +413,7 @@
       "id": "dua-istighfar",
       "occasion_en": "Seeking Forgiveness (Istighfar)",
       "occasion_ur": "استغفار",
-      "arabic": "أَسْتَغْفِرُ اللَّهَ رَبِّي مِنْ كُلِّ ذَنبٍ وَأَتُوبُ إِلَيْهِ",
+      "arabic": "أَسۡتَغۡفِرُ اللَّهَ رَبِّي مِنۡ كُلِّ ذَنبٍ وَأَتُوبُ إِلَيۡهِ",
       "transliteration": "Astaghfirullaha Rabbi min kulli dhambiw-wa atubu ilayh",
       "translation_en": "I seek forgiveness from Allah, my Lord, for every sin, and I turn to Him in repentance.",
       "translation_ur": "میں اپنے رب اللہ سے ہر گناہ کی بخشش مانگتا ہوں اور اُسی کی طرف توبہ کرتا ہوں۔"
@@ -433,7 +422,7 @@
       "id": "dua-before-wudu",
       "occasion_en": "Before Starting Wudu",
       "occasion_ur": "وضو شروع کرنے سے پہلے",
-      "arabic": "بِسْمِ اللَّهِ",
+      "arabic": "بِسۡمِ اللَّهِ",
       "transliteration": "Bismillah",
       "translation_en": "In the name of Allah.",
       "translation_ur": "اللہ کے نام سے۔"
@@ -442,7 +431,7 @@
       "id": "dua-after-wudu",
       "occasion_en": "After Completing Wudu",
       "occasion_ur": "وضو مکمل کرنے کے بعد",
-      "arabic": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِیکَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "arabic": "أَشۡهَدُ أَنۡ لَا إِلَٰهَ إِلَّا اللَّهُ وَحۡدَهُ لَا شَرِيكَ لَهُ وَأَشۡهَدُ أَنَّ مُحَمَّدًا عَبۡدُهُ وَرَسُولُهُ",
       "transliteration": "Ash-hadu al la ilaha illallahu wahdahu la shareeka lah, wa ash-hadu anna Muhammadan 'abduhu wa rasooluh",
       "translation_en": "I bear witness that there is no god but Allah alone, with no partner, and I bear witness that Muhammad is His servant and messenger.",
       "translation_ur": "میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اُس کا کوئی شریک نہیں، اور میں گواہی دیتا ہوں کہ محمد اُس کے بندے اور رسول ہیں۔"
@@ -451,7 +440,7 @@
       "id": "dua-parents",
       "occasion_en": "For One's Parents",
       "occasion_ur": "والدین کے لیے دعا",
-      "arabic": "رَبِّ ارْحَمْهُمَا کَمَا رَبَّيَانِي صَغِيرًا",
+      "arabic": "رَبِّ ارۡحَمۡهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
       "transliteration": "Rabbir-hamhuma kama rabbayani sagheera",
       "translation_en": "My Lord, have mercy on them as they raised me when I was small.",
       "translation_ur": "اے میرے رب! اُن دونوں پر رحم فرما جیسے اُنہوں نے مجھے بچپن میں پالا۔"
@@ -460,7 +449,7 @@
       "id": "dua-entering-market",
       "occasion_en": "Entering the Market",
       "occasion_ur": "بازار میں داخل ہوتے وقت",
-      "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِیکَ لَهُ، لَهُ الْمُلْکُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ حَيٌّ لَا يَمُوتُ بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ وَحۡدَهُ لَا شَرِيكَ لَهُ، لَهُ الۡمُلۡكُ وَلَهُ الۡحَمۡدُ يُحۡيِي وَيُمِيتُ وَهُوَ حَيٌّ لَا يَمُوتُ بِيَدِهِ الۡخَيۡرُ وَهُوَ عَلَى كُلِّ شَيۡءٍ قَدِيرٌ",
       "transliteration": "La ilaha illallahu wahdahu la shareeka lah, lahul-mulku wa lahul-hamdu yuhyi wa yumeetu wa huwa hayyul-la yamootu biyadihil-khayru wa huwa 'ala kulli shay'in qadeer",
       "translation_en": "There is no god but Allah alone, with no partner. His is the dominion and His is the praise. He gives life and causes death, and He is ever-living and never dies. All good is in His hand, and He has power over all things.",
       "translation_ur": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اُس کا کوئی شریک نہیں، بادشاہی اُسی کی ہے اور تعریف اُسی کی ہے، وہ زندہ کرتا اور مارتا ہے، اور وہ ہمیشہ زندہ ہے، اُسے موت نہیں آتی، بھلائی اُسی کے ہاتھ میں ہے اور وہ ہر چیز پر قادر ہے۔"
@@ -469,7 +458,7 @@
       "id": "dua-new-clothes",
       "occasion_en": "Wearing New Clothes",
       "occasion_ur": "نیا لباس پہنتے وقت",
-      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَٰذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِّنِّي وَلَا قُوَّةٍ",
+      "arabic": "الۡحَمۡدُ لِلَّهِ الَّذِي كَسَانِي هَٰذَا وَرَزَقَنِيهِ مِنۡ غَيۡرِ حَوۡلٍ مِّنِّي وَلَا قُوَّةٍ",
       "transliteration": "Alhamdu lillahil-ladhi kasani hadha wa razaqanihi min ghayri hawlim-minni wa la quwwah",
       "translation_en": "All praise is for Allah who clothed me with this and provided it for me, without any power or strength on my part.",
       "translation_ur": "تمام تعریفیں اُس اللہ کے لیے ہیں جس نے مجھے یہ پہنایا اور میری کسی طاقت یا قوت کے بغیر مجھے یہ عطا کیا۔"
@@ -478,7 +467,7 @@
       "id": "dua-seeing-moon",
       "occasion_en": "Seeing the New Moon",
       "occasion_ur": "نیا چاند دیکھتے وقت",
-      "arabic": "اللَّهُ أَکْبَرُ، اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْأَمْنِ وَالْإِيمَانِ وَالسَّلَامَةِ وَالْإِسْلَامِ",
+      "arabic": "اللَّهُ أَكۡبَرُ، اللَّهُمَّ أَهِلَّهُ عَلَيۡنَا بِالۡأَمۡنِ وَالۡإِيمَانِ وَالسَّلَامَةِ وَالۡإِسۡلَامِ",
       "transliteration": "Allahu akbar, Allahumma ahillahu 'alayna bil-amni wal-imani was-salamati wal-islam",
       "translation_en": "Allah is the Greatest. O Allah, bring this new moon upon us with security, faith, safety, and Islam.",
       "translation_ur": "اللہ سب سے بڑا ہے۔ اے اللہ! اِس چاند کو ہم پر امن، ایمان، سلامتی اور اسلام کے ساتھ طلوع فرما۔"
@@ -487,7 +476,7 @@
       "id": "dua-distress",
       "occasion_en": "At a Time of Anxiety or Distress",
       "occasion_ur": "پریشانی یا غم کے وقت",
-      "arabic": "لَا إِلَٰهَ إِلَّا أَنْتَ سُبْحَانَکَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ",
+      "arabic": "لَا إِلَٰهَ إِلَّا أَنۡتَ سُبۡحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ",
       "transliteration": "La ilaha illa anta subhanaka inni kuntu minaz-zalimeen",
       "translation_en": "There is no god but You, glory be to You. Indeed, I have been among the wrongdoers.",
       "translation_ur": "تیرے سوا کوئی معبود نہیں، تُو پاک ہے، بے شک میں ظالموں میں سے تھا۔"
@@ -496,303 +485,33 @@
       "id": "dua-sneezing-response",
       "occasion_en": "Sneezing and Responding to a Sneeze",
       "occasion_ur": "چھینک آنے اور جواب دینے پر",
-      "arabic": "الْحَمْدُ لِلَّهِ - يَرْحَمُکَ اللَّهُ - يَهْدِيكُمُ اللَّهُ وَيُصْلِحُ بَالَكُمْ",
+      "arabic": "الۡحَمۡدُ لِلَّهِ - يَرۡحَمُكَ اللَّهُ - يَهۡدِيكُمُ اللَّهُ وَيُصۡلِحُ بَالَكُمۡ",
       "transliteration": "Alhamdulillah - Yarhamukallah - Yahdikumullahu wa yuslihu balakum",
       "translation_en": "The one who sneezes says: 'All praise is for Allah.' The listener replies: 'May Allah have mercy on you.' The one who sneezed then replies: 'May Allah guide you and set right your affairs.'",
       "translation_ur": "چھینکنے والا کہتا ہے: 'الحمدللہ'۔ سننے والا جواب دیتا ہے: 'یرحمک اللہ'۔ پھر چھینکنے والا کہتا ہے: 'یہدیکم اللہ ویصلح بالکم'۔"
-    },
-    {
-      "id": "dua-after-drinking-milk",
-      "occasion_en": "After Drinking Milk",
-      "occasion_ur": "دودھ پینے کے بعد",
-      "arabic": "اللَّهُمَّ بَارِكْ لَنَا فِيهِ وَزِدْنَا مِنْهُ",
-      "transliteration": "Allahumma barik lana feehi wa zidna minhu",
-      "translation_en": "O Allah, bless it for us and give us more of it.",
-      "translation_ur": "اے اللہ! ہمارے لیے اس میں برکت عطا فرما اور ہمیں اس سے زیادہ عطا فرما۔"
-    },
-    {
-      "id": "dua-wearing-clothes",
-      "occasion_en": "Wearing Clothes",
-      "occasion_ur": "لباس پہنتے وقت",
-      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَٰذَا الثَّوْبَ وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِّنِّي وَلَا قُوَّةٍ",
-      "transliteration": "Alhamdu lillahil-ladhi kasani hadhath-thawba wa razaqanihi min ghayri hawlim-minni wa la quwwah",
-      "translation_en": "All praise is for Allah who clothed me with this garment and provided it for me without any power or strength on my part.",
-      "translation_ur": "تمام تعریفیں اس اللہ کے لیے ہیں جس نے مجھے یہ لباس پہنایا اور میری کسی طاقت اور قوت کے بغیر مجھے یہ عطا کیا۔"
-    },
-    {
-      "id": "dua-drinking-water",
-      "occasion_en": "After Drinking Water",
-      "occasion_ur": "پانی پینے کے بعد",
-      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي سَقَانَا عَذْبًا فُرَاتًا بِرَحْمَتِهِ وَلَمْ يَجْعَلْهُ مِلْحًا أُجَاجًا بِذُنُوبِنَا",
-      "transliteration": "Alhamdu lillahil-ladhi saqana 'adhban furatam-birahmatihi wa lam yaj'alhu milhan ujajam-bidhunubina",
-      "translation_en": "All praise is for Allah who, by His mercy, gave us sweet fresh water to drink, and did not make it salty and bitter due to our sins.",
-      "translation_ur": "تمام تعریفیں اس اللہ کے لیے ہیں جس نے اپنی رحمت سے ہمیں میٹھا اور لذیذ پانی پلایا اور ہمارے گناہوں کی وجہ سے اسے کھاری اور کڑوا نہیں بنایا۔"
     }
   ],
   "nazra": {
     "title_en": "Nazra Basics (Foundations of Quran Reading)",
     "title_ur": "ناظرہ کی بنیادی معلومات",
-    "intro_en": "These lessons build up, step by step, the basic skills needed to read the Quran correctly.",
-    "intro_ur": "یہ اسباق قدم بہ قدم وہ بنیادی مہارتیں سکھاتے ہیں جو قرآن کو درست پڑھنے کے لیے ضروری ہیں۔",
+    "intro_en": "These lessons build up, step by step, the basic skills needed to read the Quran correctly: recognizing the letters, their sounds, and the core Tajweed (pronunciation) rules. Practice each lesson with a teacher or reciter where possible, since correct pronunciation is best learned by listening and repeating, not from text alone.",
+    "intro_ur": "یہ اسباق قدم بہ قدم وہ بنیادی مہارتیں سکھاتے ہیں جو قرآن کو درست پڑھنے کے لیے ضروری ہیں: حروف کی پہچان، اُن کی آوازیں، اور بنیادی قواعدِ تجوید۔ ہر سبق ممکن ہو تو کسی استاد یا قاری کے ساتھ مشق کریں، کیونکہ درست تلفظ سننے اور دہرانے سے سیکھا جاتا ہے، صرف تحریر سے نہیں۔",
     "lessons": [
       {
         "id": "lesson-1",
-        "lesson_number": 1,
-        "title_en": "Hurūf Mufridāt (Individual Letters)",
-        "title_ur": "حروفِ مفردات (انفرادی حروف)",
-        "content_en": "The Mufridat Letters i.e. Arabic alphabets are 29 in number. Pronounce Mufridāt Letters with the Arabic accent according to the rules of Tajwid and Qirā`at, avoiding Urdu pronunciations.",
-        "content_ur": "عربی زبان کے کل 29 حروف ہیں۔ ان حروف کو عربی لہجے میں خوبصورت آواز کے ساتھ پڑھیں، اور اردو کی طرح نہ بولیں۔ 7 حروف ایسے ہیں جنہیں ہمیشہ موٹا کر کے پڑھا جاتا ہے۔ ہونٹوں سے صرف 4 حروف ادا ہوتے ہیں، باقی حروف پڑھتے ہوئے ہونٹ نہ ہلائیں۔",
-        "rules": [
-          "There are 7 letters that are always pronounced with a thicker voice, called Musta'liyah Letters.",
-          "Mnemonic for Musta'liyah letters indicates the grouping of these thick sounds.",
-          "Only 4 letters are pronounced from the lips. Except these letters, do not let the lips move whilst pronouncing any other letter."
-        ],
-        "examples": [
-          "خ",
-          "ص",
-          "ض",
-          "ط",
-          "ظ",
-          "غ",
-          "ق",
-          "خُضَّ ضَغْطٍ قِظْ"
-        ]
-      },
-      {
-        "id": "lesson-2",
-        "lesson_number": 2,
-        "title_en": "Hurūf Murakkabāt (Compound Letters)",
-        "title_ur": "حروفِ مرکبات (جڑے ہوئے حروف)",
-        "content_en": "Two or more letters combine to form a Murakkab (Compound). Pronounce each letter of the Murakkab letters separately like Mufridāt Letters.",
-        "content_ur": "جب دو یا دو سے زیادہ حروف آپس میں ملتے ہیں تو انہیں 'مرکب' کہتے ہیں۔ مل کر لکھتے وقت حروف کی شکل تھوڑی بدل جاتی ہے، لیکن ہمیں ہر حرف کو الگ الگ صاف آواز میں پڑھنا چاہیے اور نقطوں سے ان کی پہچان کرنی چاہیے۔",
-        "rules": [
-          "Pronounce the letters in the Ma'rūf manner with the Arabic accent.",
-          "When joined in writing, usually the head of the letter is written and the body is omitted.",
-          "Identify identical compound forms by the difference in the number and position of the dots."
-        ],
-        "examples": [
-          "لا",
-          "بـا",
-          "تـا",
-          "ثـا",
-          "نـون",
-          "يـا",
-          "جـم",
-          "حـا",
-          "خـا"
-        ]
-      },
-      {
-        "id": "lesson-3",
-        "lesson_number": 3,
-        "title_en": "Harakāt",
-        "title_ur": "حرکات (زبر، زیر، پیش)",
-        "content_en": "The plural of Harakat is Harakāt. Zabar, Zayr, and Paysh are called Harakāt.",
-        "content_ur": "زبر، زیر اور پیش کو 'حرکات' کہتے ہیں۔ زبر حرف کے اوپر، زیر نیچے اور پیش اوپر گولائی میں ہوتا ہے۔ ان کو جلدی پڑھیں، کھینچنا یا جھٹکا نہیں دینا چاہیے۔ الف پر کوئی حرکت آ جائے تو اسے ہمزہ پڑھتے ہیں۔",
-        "rules": [
-          "Zabar and Paysh are placed above the letters; Zayr is placed underneath. A letter bearing a Harakat is called Mutaharrik.",
-          "Pronounce Zabar by opening the mouth and raising the voice, Zayr by dropping the voice, and Paysh by the rounding of the lips.",
-          "Pronounce Harakāt in Arabic accent without stretching or jerking the voice.",
-          "If a Harakat or Jazm is present on Alif, pronounce it as Hamzah.",
-          "If the letter Ra carries a Zabar or Paysh, pronounce it with a thick tone. If it bears a Zayr, pronounce it with a thin tone."
-        ],
-        "examples": [
-          "دَ",
-          "دِ",
-          "دُ",
-          "رَ",
-          "رُ",
-          "رِ",
-          "أَ",
-          "إِ",
-          "أُ"
-        ]
-      },
-      {
-        "id": "lesson-4",
-        "lesson_number": 4,
-        "title_en": "Lesson Number 4",
-        "title_ur": "سبق نمبر 4 (مشق و تمیز حروف)",
-        "content_en": "Practice lesson for continuous reading and differentiating similar-sounding letters.",
-        "content_ur": "اس سبق کو بغیر ہجے کے رواں پڑھیں۔ ایک جیسی آواز والے حروف (جیسے ت اور ط، یا س اور ص) کے درمیان فرق کا خاص خیال رکھیں تاکہ آواز الگ معلوم ہو۔",
-        "rules": [
-          "Read this lesson Rawan (without syllabification).",
-          "Take special care to pronounce Harakat correctly.",
-          "Differentiate clearly between letters that sound somewhat similar (Qarīb-uş-Şaut)."
-        ],
-        "examples": [
-          "تَ - طَ",
-          "ثَ - سَ - صَ",
-          "دَ - ضَ",
-          "هَ - حَ",
-          "خَ - غَ",
-          "قَ - كَ"
-        ]
-      },
-      {
-        "id": "lesson-5",
-        "lesson_number": 5,
-        "title_en": "Tanwin",
-        "title_ur": "تنوین (دو زبر، دو زیر، دو پیش)",
-        "content_en": "Double Zabar, double Zayr, and double Paysh are called Tanwin. A letter carrying Tanwin is called Munawwan.",
-        "content_ur": "دو زبر، دو زیر اور دو پیش کو 'تنوین' کہتے ہیں۔ اس کی آواز نون ساکن (نْ) جیسی ہوتی ہے۔ جیسے 'بً' کی آواز 'بنْ' جیسی نکلے گی۔ ہجے کرتے وقت آخر میں آنے والے الف یا یا کو نہیں پڑھتے۔",
-        "rules": [
-          "Tanwin is structurally a Nūn Sākin that lies at the end of a phrase, which is why it sounds like Nūn Sākin.",
-          "Sometimes Alif or Ya is shown after double Zabar; do not pronounce it during syllabification."
-        ],
-        "examples": [
-          "بً",
-          "بٍ",
-          "بٌ",
-          "مًّا",
-          "طًى"
-        ]
-      },
-      {
-        "id": "lesson-6",
-        "lesson_number": 6,
-        "title_en": "Lesson Number 6",
-        "title_ur": "سبق نمبر 6 (مشق حرکات و تنوین)",
-        "content_en": "Comprehensive practice applying foundational metrics of pronunciation.",
-        "content_ur": "اس سبق کو ہجے کر کے اور بغیر ہجے کے رواں دونوں طرح پڑھیں۔ حرکات، تنوین اور موٹے پڑھے جانے والے حروف کو درست طریقے سے ادا کرنے کی مشق کریں۔",
-        "rules": [
-          "Read this lesson both ways: Rawan (without syllabification) and with Hijjay (with syllabification).",
-          "Take special care to correctly pronounce Harakāt, Tanwin, and all letters, particularly the Hurūf Mustaʼliyah."
-        ],
-        "examples": [
-          "أَحَدٌ",
-          "صُمٌّ",
-          "بَكَمٌ",
-          "عُمْيٌ",
-          "طَبَقًا"
-        ]
-      },
-      {
-        "id": "lesson-7",
-        "lesson_number": 7,
-        "title_en": "The Letters of Maddah",
-        "title_ur": "حروفِ مدہ",
-        "content_en": "Rules governing the identification and pronunciation of elongated letters.",
-        "content_ur": "آواز کو لمبا کرنے والے حروف کو 'حروفِ مدہ' کہتے ہیں۔ یہ تین ہیں: الف، واو اور یا۔ ان کو ایک سیکنڈ (ایک الف) کے برابر کھینچ کر پڑھیں۔ جیسے جزم والا واو ہو اور اس سے پہلے پیش ہو۔",
-        "rules": [
-          "The sign ( ْ ) is called Jazm. A letter carrying Jazm is called Sākin and is read with the preceding Mutaharrik letter.",
-          "There are three letters of Maddah: Alif, Waw, and Ya.",
-          "Alif becomes Maddah when preceded by Zabar; Waw Sakin becomes Maddah when preceded by Paysh; Ya Sakin becomes Maddah when preceded by Zayr.",
-          "Pronounce letters of Maddah by elongating them up to one Alif (two Harakāt)."
-        ],
-        "examples": [
-          "بَا",
-          "بُو",
-          "بِي",
-          "نُوحِيهَا"
-        ]
-      },
-      {
-        "id": "lesson-8",
-        "lesson_number": 8,
-        "title_en": "Khaři (Vertical) Harakāt",
-        "title_ur": "کھڑی حرکات",
-        "content_en": "Rules for vertical vocalizations.",
-        "content_ur": "کھڑی زبر، کھڑی زیر اور الٹا پیش بھی حروفِ مدہ کی طرح ہوتے ہیں۔ انہیں بھی ایک الف (ایک سیکنڈ) کے برابر لمبا کر کے پڑھیں اور ملتے جلتے حروف کی آواز میں فرق واضح کریں۔",
-        "rules": [
-          "Vertical Zabar, vertical Zayr, and inverted Paysh are called Khaři Harakāt.",
-          "Vertical Harakāt are equivalent to the letters of Maddah and should be elongated up to one Alif (two Harakāt).",
-          "Differentiate clearly between letters that sound somewhat similar (Qarīb-uş-Şaut)."
-        ],
-        "examples": [
-          "بٰ",
-          "بٖ",
-          "بٗ",
-          "هٰذَا",
-          "بِـهٖ"
-        ]
-      },
-      {
-        "id": "lesson-9",
-        "lesson_number": 9,
-        "title_en": "The Letters of Līn",
-        "title_ur": "حروفِ لین",
-        "content_en": "Rules for non-elongated soft letters.",
-        "content_ur": "واو اور یا ساکن سے پہلے زبر ہو تو انہیں 'حروفِ لین' کہتے ہیں۔ انہیں بغیر کھینچے نرمی سے جلدی پڑھیں۔",
-        "rules": [
-          "There are two letters of Līn: Waw and Ya.",
-          "Waw Sakin becomes Līn when preceded by Zabar. Ya Sakin becomes Līn when preceded by Zabar.",
-          "Pronounce the letters of Līn gently in Arabic accent without any elongation."
-        ],
-        "examples": [
-          "بَوْ",
-          "بَيْ",
-          "خَوْفٌ",
-          "بَيْتٌ"
-        ]
-      },
-      {
-        "id": "lesson-10",
-        "lesson_number": 10,
-        "title_en": "Lesson Number 10",
-        "title_ur": "سبق نمبر 10 (مشق حروف مدہ و لین)",
-        "content_en": "Mixed exercise comprising elements from all previous lessons.",
-        "content_ur": "پچھلے تمام اسباق کے قواعد (حرکات، تنوین، حروفِ مدہ و لین) کو ملا کر پڑھنے کی مشق کریں۔ ہجے کرتے وقت ہر حرف کو پہلے والے حروف سے جوڑتے جائیں۔",
-        "rules": [
-          "Read this lesson both ways: Rawān as well as with Hijjay.",
-          "Apply rules, practice recognition, and spell out letters correctly, especially Hurūf Mustaʼliyah.",
-          "Whilst doing Hijjay, join every letter to the preceding letters."
-        ],
-        "examples": [
-          "قَوْلُهُ",
-          "خَيْرَاتٌ",
-          "مُوسٰى",
-          "عِيسٰى"
-        ]
-      },
-      {
-        "id": "lesson-11",
-        "lesson_number": 11,
-        "title_en": "Sukūn (Jazm)",
-        "title_ur": "سکون (جزم) اور قلقلہ",
-        "content_en": "Core mechanics for reading Sākin letters and implementing Qalqalah vibration.",
-        "content_ur": "جس حرف پر جزم ( ْ ) ہو اسے 'ساکن' کہتے ہیں۔ پانچ حروف (ق، ط، ب، ج، د) جب ساکن ہوں تو ان کی آواز اچھل کر (گونج کر) واپس آتی ہے، اسے قلقلہ کہتے ہیں۔ ہمزہ ساکنہ کو ہمیشہ جھٹکے سے پڑھیں۔",
-        "rules": [
-          "A letter carrying a Jazm sign is called Sākin and is pronounced in conjunction with the preceding Mutaharrik letter.",
-          "Always pronounce the Hamzah Sakinah with a jerk.",
-          "There are five Letters of Qalqalah.",
-          "Qalqalah requires movement at the articulator so the sound rebounds. It must be more prominent when the letters are Sākin."
-        ],
-        "examples": [
-          "قُطْبُ جَدٍّ",
-          "أَبْ",
-          "أَجْ",
-          "أَدْ",
-          "أَقْ",
-          "أَطْ",
-          "بَأْسٌ",
-          "مُؤْمِنٌ"
-        ]
-      },
-      {
-        "id": "lesson-12",
-        "lesson_number": 12,
-        "title_en": "Nūn Sākin and Tanwin (Izhār, Ikhfā)",
-        "title_ur": "نون ساکن اور تنوین (اظہار و اخفاء)",
-        "content_en": "Introduces the first two behavioral states of Nūn Sākin and Tanwin rules.",
-        "content_ur": "نون ساکن (نْ) اور تنوین کے بعد اگر گلے والے حروف آئیں تو آواز کو بالکل صاف پڑھیں (اظہار)، اور اگر دوسرے مخصوص حروف آئیں تو ناک میں آواز لے جا کر ہلکا سا چھپائیں (اخفاء)۔",
-        "rules": [
-          "There are four cases regarding Nūn Sākin and Tanwin: Izhār, Ikhfā, Idghām, and Iqlāb.",
-          "Izhār: If any of the six Halqiyyah (throat) letters appear after Nūn Sākin or Tanwin, do not perform nasalization (Ghunnah).",
-          "Ikhfā: If any of the 15 Ikhfā letters appear after Nūn Sākin or Tanwin, nasalization (Ghunnah) must be performed."
-        ],
-        "examples": [
-          "ء",
-          "هـ",
-          "ع",
-          "ح",
-          "غ",
-          "خ",
+        "title_en": "Lesson 1: The Individual Letters (Huroof-e-Tahaji)",
+        "title_ur": "سبق 1: حروفِ تہجی (انفرادی حروف)",
+        "letters": [
+          "ا",
+          "ب",
           "ت",
           "ث",
           "ج",
+          "ح",
+          "خ",
           "د",
           "ذ",
+          "ر",
           "ز",
           "س",
           "ش",
@@ -800,249 +519,131 @@
           "ض",
           "ط",
           "ظ",
+          "ع",
+          "غ",
           "ف",
           "ق",
           "ك",
-          "مَنْ عَمِلَ",
-          "عَذَابٌ أَلِيمٌ",
-          "مِنْ قَبْلِ",
-          "نَفْسًا زَكِيَّةً"
-        ]
+          "ل",
+          "م",
+          "ن",
+          "و",
+          "ه",
+          "ء",
+          "ی"
+        ],
+        "content_en": "The Arabic alphabet has 29 letters. They should be pronounced with their true Arabic sound, not the way they're often said in Urdu speech. Seven of these letters are always pronounced with a heavier, thicker tone: kh, saad, daad, taa, zaa, ghain, qaaf - remembered by the phrase 'Khass Zaghtin Qith'. Only four letters - ba, fa, meem, waw - are pronounced using the lips; for every other letter, the lips should stay still.",
+        "content_ur": "عربی حروفِ تہجی 29 ہیں۔ اِنہیں اُن کی اصل عربی آواز کے ساتھ پڑھنا چاہیے، نہ کہ اُس طرح جیسے اردو بولتے وقت اکثر پڑھے جاتے ہیں۔ اِن میں سے سات حروف ہمیشہ بھاری اور موٹی آواز کے ساتھ پڑھے جاتے ہیں: خ، ص، ض، ط، ظ، غ، ق۔ صرف چار حروف - ب، ف، م، و - ہونٹوں سے ادا ہوتے ہیں؛ باقی تمام حروف میں ہونٹ ساکت رہنے چاہئیں۔"
+      },
+      {
+        "id": "lesson-2",
+        "title_en": "Lesson 2: Joined (Compound) Letter Forms",
+        "title_ur": "سبق 2: جڑے ہوئے حروف کی شکلیں",
+        "content_en": "When two or more letters are joined together in a word, their shapes change slightly - often only the 'head' of the letter is written. Some joined letters look almost identical, so learners must tell them apart by the number and position of their dots.",
+        "content_ur": "جب دو یا زیادہ حروف کسی لفظ میں جڑتے ہیں تو اُن کی شکل کچھ بدل جاتی ہے۔ کچھ جڑے ہوئے حروف ایک دوسرے سے ملتے جلتے نظر آتے ہیں، اس لیے نقطوں کی تعداد اور جگہ سے اُن میں فرق کیا جاتا ہے۔"
+      },
+      {
+        "id": "lesson-3",
+        "title_en": "Lesson 3: Harakat (Short Vowel Signs)",
+        "title_ur": "سبق 3: حرکات",
+        "content_en": "Zabar gives an 'a' sound, Zair gives an 'i' sound, and Paysh gives a 'u' sound. A letter carrying a Harakat is called Mutaharrik. Pronounce them in the Arabic accent without stretching or rushing the sound.",
+        "content_ur": "زبر 'اَ' کی آواز دیتا ہے، زیر 'اِ' کی آواز دیتا ہے، اور پیش 'اُ' کی آواز دیتا ہے۔ اِنہیں بغیر آواز کھینچے یا جلدی کیے پڑھنا چاہیے۔"
+      },
+      {
+        "id": "lesson-4",
+        "title_en": "Lesson 4: Tanween (Double Harakat)",
+        "title_ur": "سبق 4: تنوین",
+        "content_en": "Doubling a Harakat is called Tanween, and it always appears at the end of a word. Tanween sounds like a Noon Sakin tacked onto the end of the word's vowel sound.",
+        "content_ur": "کسی حرکت کو دوہرا کر لکھنا تنوین کہلاتا ہے، اور یہ ہمیشہ لفظ کے آخر میں آتی ہے۔ اِس کی آواز نون ساکن جیسی ہوتی ہے۔"
+      },
+      {
+        "id": "lesson-5",
+        "title_en": "Lesson 5: The Letters of Maddah (Long Vowels)",
+        "title_ur": "سبق 5: حروفِ مد",
+        "letters": [
+          "ا",
+          "و",
+          "ی"
+        ],
+        "content_en": "Three letters create a long vowel sound: Alif, Waw, and Ya. Zabar followed by a still Alif stretches to a long 'aa'; Paysh followed by a still Waw stretches to a long 'oo'; Zair followed by a still Ya stretches to a long 'ee'. Each is held for about two counts.",
+        "content_ur": "تین حروف لمبی آواز پیدا کرتے ہیں: الف، واو، اور یاء۔ زبر کے بعد ساکن الف 'آ'، پیش کے بعد ساکن واو 'او'، اور زیر کے بعد ساکن یاء 'ای' کی لمبی آواز دیتا ہے۔ ہر ایک کو تقریباً دو شمار تک کھینچا جاتا ہے۔"
+      },
+      {
+        "id": "lesson-6",
+        "title_en": "Lesson 6: Vertical (Khari) Harakat",
+        "title_ur": "سبق 6: کھڑی حرکات",
+        "content_en": "A vertical Zabar, a vertical Zair, and an inverted Paysh serve the same purpose as the letters of Maddah - signalling the same long vowel sound as a compact mark. They are elongated the same way, for about two counts.",
+        "content_ur": "کھڑی زبر، کھڑی زیر، اور اُلٹا پیش وہی کام کرتے ہیں جو حروفِ مد کرتے ہیں۔ یہ بھی تقریباً دو شمار تک کھینچے جاتے ہیں۔"
+      },
+      {
+        "id": "lesson-7",
+        "title_en": "Lesson 7: The Letters of Leen (Soft Diphthongs)",
+        "title_ur": "سبق 7: حروفِ لین",
+        "letters": [
+          "و",
+          "ی"
+        ],
+        "content_en": "When a still Waw or still Ya is preceded by Zabar, it creates a soft diphthong sound called Leen, pronounced gently and briefly without elongation.",
+        "content_ur": "جب ساکن واو یا ساکن یاء سے پہلے زبر آئے تو ایک نرم دوہری آواز پیدا ہوتی ہے جسے لین کہتے ہیں، جو نرمی اور مختصر انداز میں پڑھی جاتی ہے۔"
+      },
+      {
+        "id": "lesson-8",
+        "title_en": "Lesson 8: Sukoon (Jazm) and the Letters of Qalqalah",
+        "title_ur": "سبق 8: سکون اور حروفِ قلقلہ",
+        "letters": [
+          "ق",
+          "ط",
+          "ب",
+          "ج",
+          "د"
+        ],
+        "content_en": "A sign called Jazm marks a letter as Sakin (silent, carrying no vowel). Five letters - qaaf, taa, ba, jeem, dal - get a light rebounding echo whenever they occur Sakin; this effect is called Qalqalah.",
+        "content_ur": "علامتِ جزم کسی حرف کو ساکن قرار دیتی ہے۔ پانچ حروف - ق، ط، ب، ج، د - جب ساکن ہوں تو اُن کی آواز میں ایک ہلکا اچھال پیدا ہوتا ہے، جسے قلقلہ کہتے ہیں۔"
+      },
+      {
+        "id": "lesson-9",
+        "title_en": "Lesson 9: Tashdeed (Shaddah)",
+        "title_ur": "سبق 9: تشدید",
+        "content_en": "A w-shaped mark called Shaddah shows a letter is doubled - pronounced once joined to the preceding vowel, then again with its own vowel and a brief stress. A doubled Noon or Meem always carries Ghunnah (a nasal hum) for about one Alif's length.",
+        "content_ur": "علامتِ شد ظاہر کرتی ہے کہ حرف دہرا ہے۔ دہرا نون یا میم ہمیشہ غنہ کے ساتھ پڑھا جاتا ہے، جس کا دورانیہ تقریباً ایک الف کے برابر ہوتا ہے۔"
+      },
+      {
+        "id": "lesson-10",
+        "title_en": "Lesson 10: Rules of Noon Sakin and Tanween",
+        "title_ur": "سبق 10: نونِ ساکن اور تنوین کے احکام",
+        "content_en": "Four rules apply depending on what follows a Noon Sakin or Tanween: Izhar (clear, no hum) before throat letters; Ikhfa (light hidden hum) before 15 other letters; Idgham (merges into the next letter, with or without hum) before six letters; Iqlab (changes to a Meem sound, with hum) before ba.",
+        "content_ur": "نونِ ساکن یا تنوین کے بعد آنے والے حرف کے مطابق چار احکام ہیں: اظہار (صاف، بغیر غنہ) حلقی حروف سے پہلے؛ اخفاء (ہلکا چھپا غنہ) پندرہ دیگر حروف سے پہلے؛ ادغام (اگلے حرف میں مل جانا، غنہ کے ساتھ یا بغیر) چھ حروف سے پہلے؛ اقلاب (میم کی آواز میں تبدیل، غنہ کے ساتھ) ب سے پہلے۔"
+      },
+      {
+        "id": "lesson-11",
+        "title_en": "Lesson 11: Rules of Meem Sakin",
+        "title_ur": "سبق 11: میمِ ساکن کے احکام",
+        "content_en": "A silent Meem followed by another Meem merges with a nasal hum; followed by ba it is pronounced with a hidden hum; followed by any other letter it is pronounced clearly with no hum.",
+        "content_ur": "میمِ ساکن کے بعد دوسرا میم آئے تو غنہ کے ساتھ ملا کر پڑھتے ہیں؛ ب آئے تو چھپے ہوئے غنہ کے ساتھ؛ کسی اور حرف کی صورت میں صاف اور بغیر غنہ کے پڑھتے ہیں۔"
+      },
+      {
+        "id": "lesson-12",
+        "title_en": "Lesson 12: Tafkheem and Tarqeeq (Heavy and Light Tones)",
+        "title_ur": "سبق 12: تفخیم اور ترقیق",
+        "content_en": "The seven heavy letters from Lesson 1 are always heavy; most letters are always light. Three letters - Alif, the Laam in 'Allah', and Ra - shift between heavy and light depending on context, learned in detail through guided practice.",
+        "content_ur": "سبق 1 کے سات بھاری حروف ہمیشہ بھاری رہتے ہیں؛ اکثر حروف ہمیشہ ہلکے۔ تین حروف - الف، 'اللہ' کا لام، اور را - سیاق کے مطابق بھاری یا ہلکے ہوتے ہیں، جو استاد کی رہنمائی میں تفصیل سے سیکھے جاتے ہیں۔"
       },
       {
         "id": "lesson-13",
-        "lesson_number": 13,
-        "title_en": "Tashdīd",
-        "title_ur": "تشدید",
-        "content_en": "Rules regarding doubled emphasis characters.",
-        "content_ur": "جس حرف پر تشدید ( ّ ) ہو اسے دو بار پڑھتے ہیں۔ نون اور میم پر تشدید ہو تو ہمیشہ ناک میں آواز لے جا کر گنگنائیں (غنہ کریں)۔ قلقلہ والے حروف پر تشدید ہو تو زیادہ زور دے کر پڑھیں۔",
-        "rules": [
-          "The w-shaped diacritic is called Tashdīd. A letter carrying it is called Mushaddad.",
-          "Pronounce the Mushaddad letter twice: first by combining it with the preceding Mutaharrik letter, and then by its own Harakat with a slight pause.",
-          "Ghunnah (nasalization into the nose) must always be performed on Nūn Mushaddad and Mīm Mushaddad for the duration of one Alif.",
-          "When letters of Qalqalah are Mushaddad, pronounce them with extra stress.",
-          "If a Sākin letter is followed by a Mushaddad letter, the Sākin letter is typically omitted in pronunciation."
-        ],
-        "examples": [
-          "عَبَدتُّمْ",
-          "إِنَّ",
-          "ثُمَّ",
-          "حَجَّ",
-          "تَبَّتْ"
-        ]
+        "title_en": "Lesson 13: Madd (Elongation) Rules",
+        "title_ur": "سبق 13: مد کے قواعد",
+        "content_en": "Beyond the basic two-count elongation, longer elongations apply in certain cases: about 4-5 counts when a Hamza follows a letter of Maddah, and about 4-6 counts when a permanent Sakin letter follows. A shorter, roughly 3-count elongation applies when pausing on a word.",
+        "content_ur": "بنیادی دو شمار کی لمبائی کے علاوہ، بعض صورتوں میں زیادہ لمبائی ہوتی ہے: ہمزہ کی صورت میں تقریباً 4-5 شمار، اور مستقل ساکن حرف کی صورت میں تقریباً 4-6 شمار۔ وقف کی صورت میں تقریباً 3 شمار کی لمبائی ہوتی ہے۔"
       },
       {
         "id": "lesson-14",
-        "lesson_number": 14,
-        "title_en": "Nūn Sākin and Tanwin (Idghām, Iqlāb)",
-        "title_ur": "نون ساکن اور تنوین (ادغام و اقلاب)",
-        "content_en": "Introduces the final two behavioral states of Nūn Sākin and Tanwin rules.",
-        "content_ur": "نون ساکن یا تنوین کے بعد مخصوص حروف آئیں تو ان کو ملا کر پڑھیں (ادغام)، اور اگر 'ب' آئے تو نون کی آواز کو میم کی آواز سے بدل دیں (اقلاب) اور ناک میں غنہ کریں۔",
-        "rules": [
-          "Idghām: Triggered when any letter of Yarmalūn appears after Nūn Sākin or Tanwin. For 'ل' and 'ر', Idghām is done without Ghunnah. For the other 4 letters, Idghām is done with Ghunnah.",
-          "Iqlāb: If the letter 'ب' appears after Nūn Sākin or Tanwin, change the sound into a Mīm and perform Ikhfā with nasalization."
-        ],
-        "examples": [
-          "ي",
-          "ر",
-          "م",
-          "ل",
-          "و",
-          "ن",
-          "ب",
-          "مَنْ يَقُولُ",
-          "مِنْ رَبِّهِمْ",
-          "مِنْ لَدُنْكَ",
-          "مِنْ بَعْدِ"
-        ]
-      },
-      {
-        "id": "lesson-15",
-        "lesson_number": 15,
-        "title_en": "The Cases of Mīm Sākin",
-        "title_ur": "میمِ ساکن کے احکام",
-        "content_en": "Rules governing the pronunciation variants of static Mīm rules.",
-        "content_ur": "میم ساکن (مْ) کے بعد اگر دوبارہ 'م' آئے تو ملا کر پڑھیں، 'ب' آئے تو ناک میں آواز چھپائیں، اور باقی تمام حروف پر آواز کو بالکل صاف پڑھیں۔",
-        "rules": [
-          "There are three cases of Mīm Sākin: Idghām-e-Shafawī, Ikhfā-e-Shafawī, and Izhār-e-Shafawī.",
-          "Idghām-e-Shafawī: Done with Ghunnah when another Mīm follows a Mīm Sākin.",
-          "Ikhfā-e-Shafawī: Done with Ghunnah when the letter 'ب' follows a Mīm Sākin.",
-          "Izhār-e-Shafawī: Done without Ghunnah when any letter other than 'ب' or 'م' follows a Mīm Sākin."
-        ],
-        "examples": [
-          "م",
-          "ب",
-          "عَلَيْهِمْ مُؤْصَدَةٌ",
-          "تَرْمِيهِمْ بِحِجَارَةٍ",
-          "لَكُمْ دِينُكُمْ"
-        ]
-      },
-      {
-        "id": "lesson-16",
-        "lesson_number": 16,
-        "title_en": "Tafkhīm and Tarqīq",
-        "title_ur": "تفخیم اور ترقیق",
-        "content_en": "Deals with thick tone (Tafkhīm) vs thin tone (Tarqīq) properties.",
-        "content_ur": "کچھ حروف کو کبھی موٹا اور کبھی باریک پڑھا جاتا ہے۔ خاص طور پر الف، لام اور را کو موٹا یا باریک پڑھنے کے کچھ آسان طریقے ہیں جنہیں استاد کی مدد سے سیکھیں۔",
-        "rules": [
-          "Alif, Lām, and Rā are sometimes pronounced thick and sometimes thin.",
-          "Alif matches the tone of its preceding letter.",
-          "The Lām of the word 'Allah' (Ism-e-Jalālat) is thick if preceded by Zabar or Paysh, and thin if preceded by Zayr. All other Lāms are always thin.",
-          "Rā is thick when it carries Zabar, Paysh, double Zabar, double Paysh, vertical Zabar, or when the letter before Rā Sākin has a Zabar/Paysh, or when preceded by temporary/distant Zayr, or if a Musta'liyah letter follows it in the same word.",
-          "Rā is thin under conditions such as carrying a Zayr/double Zayr, an original (Aşlī) Zayr before Rā Sākin in the same word, or when preceded by a Yā Sākinah."
-        ],
-        "examples": [
-          "قَالَ",
-          "شَاءَ",
-          "بِسْمِ اللّٰهِ",
-          "قُلِ اللّٰهُمَّ",
-          "رَبَّنَا",
-          "رِجَالٌ",
-          "فِرْعَوْنَ"
-        ]
-      },
-      {
-        "id": "lesson-17",
-        "lesson_number": 17,
-        "title_en": "Maddāt",
-        "title_ur": "مدات (کھینچنے کے قواعد)",
-        "content_en": "Focuses on stretching and elongating sound based on criteria triggers.",
-        "content_ur": "مد کا مطلب ہے آواز کو زیادہ لمبا کھینچنا۔ جب ہمزہ یا جزم سامنے آئے تو آواز کو 2 سے 5 گنا تک زیادہ کھینچ کر پڑھیں۔ اس کی مختلف اقسام ہیں۔",
-        "rules": [
-          "Madd means to stretch. Causes for Madd are Hamzah and Sukūn. There are 6 types: Muttaşil, Munfaşil, Lāzim, Līn-Lāzim, 'Āriđ, and Līn-'Āriđ.",
-          "Madd Muttaşil & Madd Munfaşil: Triggered when Hamzah follows a Maddah letter (same word vs next word). Elongate up to 2 and a half Alifs.",
-          "Madd Lāzim & Madd Līn-Lāzim: Triggered when a Sukūn Aşlī follows a Maddah or Līn letter. Elongate up to 4 or 5 Alifs.",
-          "Madd 'Āriđ & Madd Līn-'Āriđ: Triggered when a temporary Sukūn occurs due to Waqf (pausing) after a Maddah or Līn letter. Elongate up to 3 Alifs."
-        ],
-        "examples": [
-          "جَاءَ",
-          "فِي أُمِّهَا",
-          "الْصَّاخَّةُ",
-          "آلْآنَ",
-          "تَعْلَمُونَ",
-          "قُرَيْشٍ"
-        ]
-      },
-      {
-        "id": "lesson-18",
-        "lesson_number": 18,
-        "title_en": "Muqatta'āt Letters",
-        "title_ur": "حروفِ مقطعات",
-        "content_en": "Disconnected alphabetic keys found at the start of specific Surahs.",
-        "content_ur": "کچھ سورتوں کے شروع میں الگ الگ حروف لکھے ہوتے ہیں جیسے 'الم'۔ ان کو الگ الگ کر کے اور لمبا کھینچ کر خوبصورت آواز میں پڑھا جاتا ہے۔ جہاں قواعد آئیں وہاں غنہ بھی کریں۔",
-        "rules": [
-          "Pronounce these letters individually while elongating Maddāt properly.",
-          "Perform nasalization (Ghunnah) where Ikhfā and Idghām interactions occur.",
-          "Can be recited in two ways: Waşl (Joining) or Waqf (Pausing)."
-        ],
-        "examples": [
-          "الم",
-          "الر",
-          "طسم",
-          "يس",
-          "حم",
-          "عسق",
-          "ق",
-          "ن"
-        ]
-      },
-      {
-        "id": "lesson-19",
-        "lesson_number": 19,
-        "title_en": "Zaid Alif",
-        "title_ur": "زائد الف",
-        "content_en": "Rules concerning additional non-pronounced structural characters.",
-        "content_ur": "قرآن مجید میں کچھ جگہوں پر الف کے اوپر دائرہ (o) ہوتا ہے جسے زائد الف کہتے ہیں۔ اس الف کو ملا کر پڑھتے وقت نہیں پڑھا جاتا، لیکن رکتے وقت پڑھ سکتے ہیں۔",
-        "rules": [
-          "At specific locations, a circle symbol 'o' sits on an Alif, labeling it as Zaid (additional).",
-          "Do not pronounce this Alif during continuous reading (Wasl).",
-          "Specific words do not pronounce this Alif during Waşl, but do pronounce it when making a Waqf (Pause)."
-        ],
-        "examples": [
-          "أَنَا",
-          "لَکِنَّا",
-          "الظُّنُونَا",
-          "الرَّسُولَا",
-          "السَّبِيلَا",
-          "قَوَارِيرَا"
-        ]
-      },
-      {
-        "id": "lesson-20",
-        "lesson_number": 20,
-        "title_en": "Miscellaneous Rules",
-        "title_ur": "متفرق قواعد",
-        "content_en": "Covers exceptional performance properties including Izhar-e-Mutlaq, Saktah, Tashīl, Imālah, and unique letter behaviors.",
-        "content_ur": "اس سبق میں کچھ خاص اور متفرق قواعد سیکھیں گے، جیسے سکتہ (سانس توڑے بغیر آواز کو تھوڑی دیر کے لیے روکنا) اور امالہ (آواز کو نیچے کی طرف جھکانا)۔",
-        "rules": [
-          "Izhar-e-Mutlaq: Occurs in 4 specific words where a Yarmalūn letter follows Nūn Sākin in the same word. Do not apply Idghām or Ghunnah.",
-          "Saktah: To stop the sound and continue reading ahead while holding the breath. Essential (Wājib) in four specific Quranic locations.",
-          "Sīn over Şād: In words with a small س over ص, pronounce only as س (locations 1 & 2), optionally either way (location 3), or only as ص (location 4).",
-          "Tashīl: Making the second Hamzah soft in tone. Wājib in only one specific word.",
-          "Imālah: Inclining the sound of Zabar towards Zayr and Alif towards Yā. Pronounced 'Ray' instead of 'Rā'."
-        ],
-        "examples": [
-          "دُنْيَا",
-          "بُنْيَانٌ",
-          "صِنْوَانٌ",
-          "قِنْوَانٌ",
-          "ءَاَعْجَمِيٌّ",
-          "مَجْرِؔىهَا",
-          "عِوَجَاۜ",
-          "مَرْقَدِنَاۜ",
-          "مَنْۜ رَاقٍ",
-          "بَلْۜ رَانَ",
-          "يَبْصُۜطُ",
-          "بَصْۜطَةً",
-          "الْمُصَيْۜطِرُونَ",
-          "بِمُصَيْطِرٍ"
-        ]
-      },
-      {
-        "id": "lesson-21",
-        "lesson_number": 21,
-        "title_en": "Waqf (Pause)",
-        "title_ur": "وقف کے قواعد",
-        "content_en": "Core parsing frameworks for terminating phrasing, breathing, and dealing with trailing symbols.",
-        "content_ur": "آیت کے آخر پر رکنے اور سانس لینے کو 'وقف' کہتے ہیں۔ رکتے وقت آخری حرف کی حرکت ختم کر کے اسے ساکن (جزم والا) بنا دیا جاتا ہے۔ گول تا (ة) پر وقف کریں تو وہ ہا (ہْ) بن جاتی ہے۔",
-        "rules": [
-          "Waqf means to pause and stop, ending both voice and breath on the last letter of a phrase.",
-          "Change the last letter to Sākin if it carries Zabar, Zayr, Paysh, double Zayr, double Paysh, vertical Zayr, or inverted Paysh.",
-          "If the last letter carries double Zabar, pronounce it as an Alif.",
-          "If the last letter is a rounded Tā (ة), always pronounce it as a Sākin 'Hā' (هْ) regardless of its diacritics.",
-          "Do not alter vertical Zabar, letters of Maddah, or existing Sākin letters during a pause.",
-          "Maintain Tashdīd on a final letter during Waqf, but drop the vowel Harakat sound.",
-          "Nūn Quţnī: When a Hamzah Waşlī follows Tanwin, drop the Hamzah during Waşl and give the underlying structural Nūn Sākin a Zayr sound."
-        ],
-        "examples": [
-          "ة",
-          "هْ",
-          "كُفُوًا أَحَدٌ ➔ كُفُوًا أَحَدْ",
-          "رَحْمَةً ➔ رَحْمَهْ",
-          "عَذَابٌ ➔ عَذَابْ",
-          "بِالْحَقِّ ➔ بِالْحَقْ"
-        ]
-      },
-      {
-        "id": "lesson-22",
-        "lesson_number": 22,
-        "title_en": "Salah",
-        "title_ur": "نماز (عملی مشق)",
-        "content_en": "The practical application layer of Tajwīd rules through required structural prayers.",
-        "content_ur": "اس سبق میں نماز کے کلمات اور دعائیں ہیں تاکہ آپ نماز بھی سیکھ سکیں اور تجوید کے قواعد کی عملی مشق بھی کر سکیں۔ نماز درست پڑھنا بہت ضروری ہے۔",
-        "rules": [
-          "Read this lesson both ways: Rawan (without syllabification) and with Hijjay (with syllabification).",
-          "Carefully apply all text rules and preserve alternative properties among close-sounding letters.",
-          "Critical Note: If a configuration error alters the core meaning due to improper letter separation, the Şalah will not be valid."
-        ],
-        "examples": [
-          "سُبْحٰنَكَ اللّٰهُمَّ",
-          "الْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِينَ",
-          "قُلْ هُوَ اللّٰهُ أَحَدٌ"
-        ]
+        "title_en": "Lesson 14: Waqf (Stopping) Rules and Signs",
+        "title_ur": "سبق 14: وقف کے قواعد اور علامات",
+        "content_en": "When pausing at the end of a phrase, a moving letter is read as silent, and a rounded Taa is read as a plain 'ha' sound. The Mushaf marks pause points with small letters above the text, indicating whether one must stop, should stop, may continue, or should preferably continue - taught in detail with a teacher.",
+        "content_ur": "کسی فقرے کے آخر پر وقف کرتے وقت متحرک حرف کو ساکن پڑھا جاتا ہے، اور گول تاء کو صرف 'ہ' کی آواز میں پڑھا جاتا ہے۔ مصحف میں وقف کی جگہیں چھوٹے حروف سے ظاہر کی جاتی ہیں، جو استاد سے تفصیل سے سیکھی جاتی ہیں۔"
       }
     ],
-    "note_en": "These lessons cover core rules; practicing with audio or an instructor is highly recommended.",
-    "note_ur": "یہ اسباق بنیادی قواعد پر مشتمل ہیں؛ درستگی کے لیے استاد سے رہنمائی ضرور لیں۔"
+    "note_en": "These lessons cover the core rules; a teacher-led course will also include guided reading practice, audio modelling, and correction of individual pronunciation - which text alone cannot fully replace.",
+    "note_ur": "یہ اسباق بنیادی قواعد پر مشتمل ہیں؛ استاد کے زیرِ نگرانی کورس میں رہنمائی میں پڑھنے کی مشق، آواز کی مثالیں، اور انفرادی تلفظ کی اصلاح بھی شامل ہوتی ہے - جو صرف تحریر سے مکمل طور پر ممکن نہیں۔"
   }
 }
