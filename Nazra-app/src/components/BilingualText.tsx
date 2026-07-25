@@ -29,8 +29,8 @@ export function BilingualText({
         <p
           dir="rtl"
           lang="ar"
-          style={{ lineHeight: '3.2em', wordSpacing: '0.1em' }}
-          className="font-arabic text-2xl sm:text-3xl sm:text-[32px] py-6 text-center text-ink-900 dark:text-parchment-100 mb-8"
+          style={{ lineHeight: '2.4em', wordSpacing: '0.1em' }}
+          className="font-arabic text-lg sm:text-2xl md:text-3xl md:text-[32px] py-3 sm:py-6 text-center text-ink-900 dark:text-parchment-100 mb-4 sm:mb-8"
         >
           {arabic}
         </p>
@@ -39,18 +39,18 @@ export function BilingualText({
       {transliteration && (
         <p
           dir="ltr"
-          className="text-center text-gold-600 dark:text-gold-300 italic text-sm sm:text-base mb-8"
+          className="text-center text-gold-600 dark:text-gold-300 italic text-xs sm:text-sm md:text-base mb-4 sm:mb-8"
         >
           {transliteration}
         </p>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8">
         {translation_ur && (
           <div dir="rtl" lang="ur" className="md:border-r md:border-white/40 dark:md:border-white/15 md:pr-6">
             <p
-              className="font-urdu text-lg sm:text-xl text-ink-800 dark:text-parchment-100"
-              style={{ lineHeight: '2.8em', wordSpacing: '0.08em' }}
+              className="font-urdu text-base sm:text-lg md:text-xl text-ink-800 dark:text-parchment-100"
+              style={{ lineHeight: '2.2em', wordSpacing: '0.08em' }}
             >
               {translation_ur}
             </p>
@@ -58,7 +58,7 @@ export function BilingualText({
         )}
         {translation_en && (
           <div dir="ltr" lang="en">
-            <p className="text-base sm:text-[17px] leading-loose text-ink-700 dark:text-parchment-200">
+            <p className="text-sm sm:text-base md:text-[17px] leading-relaxed sm:leading-loose text-ink-700 dark:text-parchment-200">
               {translation_en}
             </p>
           </div>

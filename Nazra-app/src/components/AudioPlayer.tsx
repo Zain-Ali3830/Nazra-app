@@ -108,32 +108,25 @@ export function AudioPlayer({ src, arabicText, title }: AudioPlayerProps) {
 
   return (
     <div className="glass-panel p-4 sm:p-5 my-6 border border-mint-300/40 dark:border-gold-500/20">
-      {/* Header row */}
-      <div className="flex items-center justify-between gap-3 mb-4">
-        <div className="flex items-center gap-2">
-          <div className="neu-badge w-9 h-9 text-gold-600 dark:text-gold-300 shrink-0">
-            <VolumeIcon className="w-4 h-4" />
-          </div>
-          <div>
-            <div className="flex items-center gap-2">
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-ink-700 dark:text-parchment-200">
-                Audio Recitation
-              </h4>
-              {useSpeech && (
-                <span className="text-[10px] bg-mint-500/10 text-mint-700 dark:text-gold-300 px-2 py-0.5 rounded-full border border-mint-500/20">
-                  Voice
-                </span>
-              )}
-            </div>
-            {title && <p className="text-xs text-mint-600 dark:text-gold-300 font-medium truncate max-w-[180px] sm:max-w-[280px]">{title}</p>}
-          </div>
+      {/* Header row — icon + heading + speed all on one line */}
+      <div className="flex items-center gap-2 mb-1">
+        <div className="neu-badge w-8 h-8 sm:w-9 sm:h-9 text-gold-600 dark:text-gold-300 shrink-0">
+          <VolumeIcon className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
         </div>
+        <h4 className="text-[10px] sm:text-xs font-semibold uppercase tracking-wider text-ink-700 dark:text-parchment-200 whitespace-nowrap">
+          Audio Recitation
+        </h4>
+        {useSpeech && (
+          <span className="text-[9px] sm:text-[10px] bg-mint-500/10 text-mint-700 dark:text-gold-300 px-1.5 sm:px-2 py-0.5 rounded-full border border-mint-500/20 whitespace-nowrap">
+            Voice
+          </span>
+        )}
 
-        {/* Speed */}
-        <div className="flex items-center gap-1 bg-mint-100/60 dark:bg-charcoal-900/60 p-1 rounded-xl">
+        {/* Speed — inline on the same row as heading, pushed right */}
+        <div className="flex items-center gap-0.5 sm:gap-1 bg-mint-100/60 dark:bg-charcoal-900/60 p-0.5 sm:p-1 rounded-xl ml-auto shrink-0">
           {[0.75, 1.0, 1.25].map(s => (
             <button key={s} onClick={() => changeSpeed(s)}
-              className={`px-2 py-0.5 text-xs rounded-lg font-medium transition-colors ${
+              className={`px-1.5 sm:px-2 py-0.5 text-[10px] sm:text-xs rounded-lg font-medium transition-colors ${
                 playbackRate === s
                   ? 'bg-mint-500 text-white dark:bg-gold-400 dark:text-charcoal-950 shadow-sm'
                   : 'text-ink-600 dark:text-parchment-300'
@@ -141,6 +134,9 @@ export function AudioPlayer({ src, arabicText, title }: AudioPlayerProps) {
           ))}
         </div>
       </div>
+
+      {/* Title below the heading row */}
+      {title && <p className="text-[10px] sm:text-xs text-mint-600 dark:text-gold-300 font-medium truncate mb-3">{title}</p>}
 
       {/* Controls */}
       <div className="flex items-center gap-3">

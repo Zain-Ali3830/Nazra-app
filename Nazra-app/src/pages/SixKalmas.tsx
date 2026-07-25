@@ -38,24 +38,24 @@ export function SixKalmas({ kalmas, onBack }: SixKalmasProps) {
     return (
       <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-6 pb-28 md:pb-12">
         {/* Detail header */}
-        <div className="neu-surface p-4 mb-6 flex items-center gap-3">
+        <div className="neu-surface p-3 sm:p-4 mb-4 sm:mb-6 flex items-center gap-2 sm:gap-3">
           <button
             onClick={() => setSelected(null)}
             aria-label="Back to Kalmas list"
-            className="neu-badge w-10 h-10 hover:shadow-neu-inset-sm transition-shadow shrink-0"
+            className="neu-badge w-9 h-9 sm:w-10 sm:h-10 hover:shadow-neu-inset-sm transition-shadow shrink-0"
           >
-            <BackArrowIcon className="w-5 h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
+            <BackArrowIcon className="w-4 h-4 sm:w-5 sm:h-5 text-mint-700 dark:text-gold-300" strokeWidth={1.75} />
           </button>
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2 mb-0.5">
-              <span className={`text-xs font-bold uppercase tracking-widest ${numColorClass}`}>
+              <span className={`text-[10px] sm:text-xs font-bold uppercase tracking-widest ${numColorClass}`}>
                 Kalma #{selected.number}
               </span>
             </div>
-            <p dir="rtl" lang="ur" className="font-urdu text-lg leading-[3] text-ink-800 dark:text-parchment-100">
+            <p dir="rtl" lang="ur" className="font-urdu text-base sm:text-lg leading-[2] sm:leading-[3] text-ink-800 dark:text-parchment-100">
               {selected.name_ur}
             </p>
-            <p className="text-sm font-semibold text-ink-700 dark:text-parchment-200">{selected.name_en}</p>
+            <p className="text-xs sm:text-sm font-semibold text-ink-700 dark:text-parchment-200">{selected.name_en}</p>
           </div>
         </div>
 
