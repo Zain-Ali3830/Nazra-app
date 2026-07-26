@@ -7,7 +7,8 @@ export type CategoryId =
   | 'duaQunoot'
   | 'sunnahDuas'
   | 'nazra'
-  | 'sixKalmas';
+  | 'sixKalmas'
+  | 'tasbih';
 
 export interface Kalma {
   id: string;

@@ -9,6 +9,7 @@ import {
   ScrollIcon,
   SunIcon,
   KalmaIcon,
+  TasbihIcon,
 } from './IslamicIcons';
 
 type IconComponent = (props: SVGProps<SVGSVGElement> & { strokeWidth?: number }) => JSX.Element;
@@ -29,6 +30,7 @@ export const NAV_ITEMS: NavItem[] = [
   { id: 'sunnahDuas', label_en: 'Sunnah Duas', label_ur: 'سنت دعائیں', icon: DuaHandsIcon },
   { id: 'nazra', label_en: 'Nazra', label_ur: 'ناظرہ', icon: ScrollIcon },
   { id: 'sixKalmas', label_en: 'Six Kalmas', label_ur: 'چھ کلمے', icon: KalmaIcon },
+  { id: 'tasbih', label_en: 'Tasbih', label_ur: 'تسبيح', icon: TasbihIcon },
 ];
 
 interface NavigationProps {

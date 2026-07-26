@@ -429,4 +429,34 @@ export function RefreshIcon({ className, strokeWidth = 1.75, ...props }: IconPro
   );
 }
 
+/** Tasbih beads icon - replacing counter */
+export function TasbihIcon({ className, strokeWidth = 1.75, ...props }: IconProps) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={strokeWidth}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...props}
+    >
+      {/* Beads in a circular loop */}
+      <circle cx="12" cy="6" r="1.5" />
+      <circle cx="16.5" cy="8.5" r="1.5" />
+      <circle cx="18.5" cy="13" r="1.5" />
+      <circle cx="16.5" cy="17.5" r="1.5" />
+      <circle cx="12" cy="19" r="1.5" />
+      <circle cx="7.5" cy="17.5" r="1.5" />
+      <circle cx="5.5" cy="13" r="1.5" />
+      <circle cx="7.5" cy="8.5" r="1.5" />
+      {/* Thread/Tassel at the bottom */}
+      <path d="M12 19v3" />
+      <path d="M10 22h4" />
+    </svg>
+  );
+}
+
 

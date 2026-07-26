@@ -7,6 +7,7 @@ import {
   DuaHandsIcon,
   ScrollIcon,
   KalmaIcon,
+  TasbihIcon,
 } from '../components/IslamicIcons';
 
 type IconComponent = (props: SVGProps<SVGSVGElement> & { strokeWidth?: number }) => JSX.Element;
@@ -34,6 +35,7 @@ const CATEGORIES: CategoryMeta[] = [
   { id: 'sunnahDuas', title_en: 'Sunnah Duas', title_ur: 'سنت دعائیں', icon: DuaHandsIcon, hasProgress: false },
   { id: 'nazra', title_en: 'Nazra Basics', title_ur: 'ناظرہ', icon: ScrollIcon, hasProgress: false },
   { id: 'sixKalmas', title_en: 'Six Kalmas', title_ur: 'چھ کلمے', icon: KalmaIcon, hasProgress: false },
+  { id: 'tasbih', title_en: 'Tasbih Counter', title_ur: 'تسبيح کاؤنٹر', icon: TasbihIcon, hasProgress: false },
 ];
 
 export function Home({ onNavigate, getProgress }: HomeProps) {

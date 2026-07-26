@@ -11,6 +11,7 @@ import { TextPage } from './pages/TextPage';
 import { SunnahDuas } from './pages/SunnahDuas';
 import { Nazra } from './pages/Nazra';
 import { SixKalmas } from './pages/SixKalmas';
+import { Tasbih } from './pages/Tasbih';
 import { CelebrationProvider } from './context/CelebrationContext';
 
 type View = CategoryId | 'home';
@@ -64,6 +65,8 @@ export default function App() {
         return <Nazra section={data.nazra} onBack={() => navigate('home')} />;
       case 'sixKalmas':
         return <SixKalmas kalmas={sixKalmasData} onBack={() => navigate('home')} />;
+      case 'tasbih':
+        return <Tasbih onBack={() => navigate('home')} />;
       default:
         return <Home onNavigate={navigate} getProgress={getProgress} />;
     }
