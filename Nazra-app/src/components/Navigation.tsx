@@ -88,7 +88,7 @@ export function Navigation({ active, onNavigate, theme, onToggleTheme }: Navigat
       </nav>
 
       {/* Desktop: persistent sidebar */}
-      <aside className="hidden md:flex flex-col gap-2 w-64 shrink-0 p-4 sticky top-0 h-screen overflow-y-auto">
+      <aside className="hidden md:flex flex-col gap-2 w-64 shrink-0 p-4 sticky top-0 h-screen overflow-y-auto no-scrollbar">
         <button
           onClick={() => onNavigate('home')}
           className={`neu-surface-sm p-3 flex items-center gap-3 text-left transition-all ${
@@ -118,7 +118,7 @@ export function Navigation({ active, onNavigate, theme, onToggleTheme }: Navigat
               <Icon className="w-5 h-5 text-mint-600 dark:text-gold-300 shrink-0" strokeWidth={1.75} />
               <div className="min-w-0">
                 <p className="font-medium text-sm">{item.label_en}</p>
-                <p dir="rtl" lang="ur" className="font-urdu text-sm text-ink-600 dark:text-parchment-300 leading-tight">
+                <p dir="rtl" lang="ur" className="font-urdu text-sm text-ink-600 dark:text-parchment-300 leading-tight pt-2">
                   {item.label_ur}
                 </p>
               </div>
