@@ -14,42 +14,42 @@ interface Dhikr {
 const PREDEFINED_DHIKR: Dhikr[] = [
   {
     id: 'subhanallah',
-    arabic: 'سُبْحَانَ اللَّهِ',
+    arabic: 'سُبْحَانَ اللّٰهِ',
     transliteration: 'SubhanAllah',
     translation_en: 'Glory be to Allah',
     translation_ur: 'اللہ پاک ہے',
   },
   {
     id: 'alhamdulillah',
-    arabic: 'الْحَمْدُ لِلَّهِ',
+    arabic: 'الْحَمْدُ لِلّٰهِ',
     transliteration: 'Alhamdulillah',
     translation_en: 'Praise be to Allah',
     translation_ur: 'تمام تعریفیں اللہ ہی کے لیے ہیں',
   },
   {
     id: 'allahuakbar',
-    arabic: 'اللَّهُ أَكْبَرُ',
+    arabic: 'اَللّٰهُ أَكْبَرُ',
     transliteration: 'Allahu Akbar',
     translation_en: 'Allah is the Greatest',
     translation_ur: 'اللہ سب سے بڑا ہے',
   },
   {
     id: 'astaghfirullah',
-    arabic: 'أَسْتَغْفِرُ اللَّهَ',
+    arabic: 'أَسْتَغْفِرُ اَللّٰهَ',
     transliteration: 'Astaghfirullah',
     translation_en: 'I seek forgiveness from Allah',
     translation_ur: 'میں اللہ سے مغفرت طلب کرتا ہوں',
   },
   {
     id: 'lailahaillallah',
-    arabic: 'لَا إِلَٰهَ إِلَّا اللَّهُ',
+    arabic: 'لَا إِلَٰهَ إِلَّا اَللّٰهُ',
     transliteration: 'La ilaha illallah',
     translation_en: 'There is no deity but Allah',
     translation_ur: 'اللہ کے سوا کوئی معبود نہیں',
   },
   {
     id: 'durood',
-    arabic: 'اللَّهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ',
+    arabic: 'اَللّٰهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ',
     transliteration: 'Allahumma Salli Ala Muhammad',
     translation_en: 'O Allah, send blessings upon Muhammad',
     translation_ur: 'اے اللہ! محمد (صلی اللہ علیہ وسلم) پر رحمتیں نازل فرما',
@@ -105,6 +105,9 @@ export function Tasbih({ onBack }: { onBack: () => void }) {
       return true;
     }
   });
+
+  // Toast-based reset confirmation (replaces native window.confirm)
+  const [showResetConfirm, setShowResetConfirm] = useState(false);
 
   // Save changes to localStorage
   useEffect(() => {
@@ -224,14 +227,23 @@ export function Tasbih({ onBack }: { onBack: () => void }) {
     }
   }, [count, triggerVibration, playClickSound]);
 
+  // Opens the toast instead of the native browser confirm()
   const reset = useCallback((e: React.MouseEvent) => {
     e.stopPropagation(); // prevent triggering increment
-    if (window.confirm('Do you want to reset the count to 0?')) {
-      setCount(0);
-      triggerVibration([30, 30]);
-      playClickSound();
-    }
+    setShowResetConfirm(true);
+  }, []);
+
+  // Called when the user taps "Reset" inside the toast
+  const confirmReset = useCallback(() => {
+    setCount(0);
+    triggerVibration([30, 30]);
+    playClickSound();
+    setShowResetConfirm(false);
   }, [triggerVibration, playClickSound]);
+
+  const cancelReset = useCallback(() => {
+    setShowResetConfirm(false);
+  }, []);
 
   // Calculate percentage progress for circular ring
   const strokeDashoffset = useMemo(() => {
@@ -443,6 +455,36 @@ export function Tasbih({ onBack }: { onBack: () => void }) {
           </div>
         </div>
       </div>
+
+      {/* In-app reset confirmation toast (replaces native window.confirm) */}
+      {showResetConfirm && (
+        <div className="fixed inset-x-0 bottom-6 z-50 flex justify-center px-4 animate-[slideUp_0.25s_ease-out]">
+          <div className="neu-surface shadow-neu dark:shadow-neu-dark rounded-2xl px-5 py-4 flex items-center gap-4 max-w-sm w-full sm:w-auto">
+            <div className="flex-1">
+              <p className="text-sm font-semibold text-ink-800 dark:text-parchment-100">
+                Reset count to 0?
+              </p>
+              <p dir="rtl" className="font-urdu text-xs text-ink-600 dark:text-parchment-300 mt-0.5">
+                کیا آپ شمار کو صفر پر ری سیٹ کرنا چاہتے ہیں؟
+              </p>
+            </div>
+            <div className="flex gap-2 shrink-0">
+              <button
+                onClick={cancelReset}
+                className="px-3 py-1.5 rounded-lg text-xs font-semibold neu-surface-sm hover:scale-105 transition-all text-ink-600 dark:text-parchment-200"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={confirmReset}
+                className="px-3 py-1.5 rounded-lg text-xs font-semibold bg-rose-500 hover:bg-rose-600 text-white transition-all"
+              >
+                Reset
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
